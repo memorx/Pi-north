@@ -1,0 +1,5 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="20" cy="20" r="18" stroke="#F5B732" stroke-width="2" fill="none"/>
+  <text x="20" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#F5B732">π</text>
+  <text x="110" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#F5B732" letter-spacing="2">PINORTH</text>
+</svg>

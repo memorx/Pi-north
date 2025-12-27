@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Ingenieria Digital y Transformacion Orientada a Resultados | Pi-North",
+    "description": "Pi-North es un socio de transformacion orientado a resultados que provee ingenieria digital, integracion de sistemas y servicios de consultoria para empresas de mision critica en Norteamerica."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "industries": "Industrias",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Ingenieria Digital y Transformacion Orientada a Resultados",
+    "subtitle": "Pi-North es un socio de transformacion que combina ingenieria industrial profunda, integracion de sistemas y consultoria para modernizar empresas de mision critica.",
+    "supporting": "Enfocados en Salud, Telecomunicaciones, Gobierno y Servicios Financieros en Norteamerica.",
+    "cta": "Habla con Nuestro Equipo"
+  },
+  "whatWeDo": {
+    "title": "Lo Que Hacemos",
+    "description": "Pi-North ayuda a las organizaciones a modernizar entornos complejos y de mision critica mediante ingenieria integrada, modernizacion de plataformas y consultoria orientada a la ejecucion. Nos especializamos en sistemas seguros, conformes y resilientes que escalan en industrias reguladas e intensivas en infraestructura.",
+    "capabilities": {
+      "title": "Capacidades Principales",
+      "items": [
+        "Ingenieria digital y desarrollo de software personalizado",
+        "Integracion de sistemas y modernizacion de plataformas",
+        "Modernizacion de nube e infraestructura",
+        "Consultoria en transformacion digital",
+        "Automatizacion inteligente con supervision humana"
+      ]
+    }
+  },
+  "howWeDeliver": {
+    "title": "Como Entregamos",
+    "items": [
+      "Orientados a entrega, no a presentaciones",
+      "Equipos de ingenieria especificos por industria",
+      "Ejecucion nearshore-first en Mexico y Canada",
+      "Automatizacion con gobernanza humana (Jidoka)",
+      "Arquitecturas seguras, conformes y resilientes por diseno"
+    ]
+  },
+  "about": {
+    "title": "Sobre Pi-North",
+    "metaDescription": "Conoce como Pi-North entrega ingenieria digital de nivel empresarial, integracion de sistemas y servicios de transformacion para industrias reguladas.",
+    "whoWeAre": {
+      "title": "Quienes Somos",
+      "description": "Pi-North es una firma de ingenieria digital y transformacion construida para apoyar empresas que operan en entornos complejos, regulados e intensivos en infraestructura."
+    },
+    "mission": {
+      "title": "Nuestra Mision",
+      "description": "Ayudar a organizaciones de mision critica a modernizarse con confianza entregando soluciones tecnologicas seguras, resilientes y escalables; combinando ingenieria profunda, excelencia en integracion y automatizacion inteligente con el juicio humano en el centro.",
+      "extended": "Ejecutamos la transformacion a traves de entrega responsable, diseno compliance-first y reinversion en las comunidades donde operamos; desarrollando talento local, fortaleciendo ecosistemas tecnologicos y creando valor a largo plazo para nuestros clientes y socios."
+    },
+    "vision": {
+      "title": "Nuestra Vision",
+      "description": "Convertirnos en el socio lider de transformacion orientado a entrega para empresas de mision critica en Norteamerica - confiados por excelencia en ingenieria, ejecucion resiliente y automatizacion inteligente que mantiene a las personas en el centro.",
+      "extended": "Creemos que la escala y la responsabilidad deben crecer juntas. A medida que Pi-North se expande, estamos comprometidos a reinvertir en las comunidades donde operamos - desarrollando talento local, fortaleciendo ecosistemas tecnologicos y creando valor a largo plazo mas alla de compromisos individuales."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        "Excelencia en entrega",
+        "Responsabilidad y ownership",
+        "Enfoque en industria",
+        "Automatizacion centrada en el humano"
+      ]
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "metaDescription": "Explora los servicios de TI empresarial de Pi-North incluyendo ingenieria digital, integracion de sistemas, modernizacion de nube y automatizacion inteligente.",
+    "description": "Servicios de TI Empresarial y Consultoria",
+    "engineering": {
+      "title": "Ingenieria Digital y Desarrollo de Software",
+      "description": "Disenamos y construimos aplicaciones y plataformas seguras de nivel empresarial alineadas a requisitos especificos de la industria y escalabilidad a largo plazo.",
+      "capabilities": [
+        "Desarrollo de aplicaciones empresariales personalizadas",
+        "Arquitecturas API-first y microservicios",
+        "Modernizacion de sistemas legacy",
+        "Ingenieria de producto y soporte de ciclo de vida"
+      ]
+    },
+    "integration": {
+      "title": "Integracion de Sistemas y Modernizacion de Plataformas",
+      "description": "Integramos ecosistemas complejos a traves de plataformas legacy, nube y de terceros para asegurar flujo de datos confiable, continuidad operativa y resiliencia del sistema.",
+      "capabilities": [
+        "Arquitectura de integracion empresarial",
+        "Plataformas de middleware y APIs",
+        "Interoperabilidad y migracion de datos",
+        "Consolidacion de proveedores y plataformas"
+      ]
+    },
+    "cloud": {
+      "title": "Modernizacion de Nube e Infraestructura",
+      "description": "Modernizamos infraestructura para mejorar resiliencia, seguridad y eficiencia de costos en entornos regulados y de mision critica.",
+      "capabilities": [
+        "Migracion a nube y arquitecturas hibridas",
+        "Infrastructure-as-Code y automatizacion",
+        "Ingenieria de confiabilidad de plataformas",
+        "Seguridad y compliance por diseno"
+      ]
+    },
+    "consulting": {
+      "title": "Transformacion Digital y Consultoria Empresarial",
+      "description": "Nuestros servicios de consultoria estan orientados a la ejecucion y enfocados en habilitar resultados medibles respaldados por tecnologia.",
+      "capabilities": [
+        "Roadmaps de transformacion vinculados a entrega",
+        "Rediseno de modelo operativo y procesos",
+        "Estrategia tecnologica alineada a ejecucion",
+        "Gobernanza de programas y habilitacion del cambio"
+      ]
+    },
+    "automation": {
+      "title": "Automatizacion Inteligente y Habilitacion Jidoka",
+      "description": "Implementamos automatizacion inteligente que mejora la eficiencia mientras mantiene supervision humana, auditabilidad y control operativo.",
+      "capabilities": [
+        "Automatizacion de procesos y orquestacion de flujos",
+        "Modelos de automatizacion human-in-the-loop",
+        "Sistemas de soporte a decisiones",
+        "Programas de eficiencia operativa"
+      ]
+    },
+    "analytics": {
+      "title": "Analitica de Datos y Plataformas de Decision",
+      "description": "Disenamos e implementamos plataformas de analitica seguras que unifican datos entre sistemas, soportan requisitos regulatorios y habilitan toma de decisiones operativas y estrategicas en tiempo real.",
+      "capabilities": [
+        "Arquitectura de datos empresarial y diseno de plataforma",
+        "Integracion, calidad y marcos de gobernanza de datos",
+        "Dashboards de analitica operativa y ejecutiva",
+        "Pipelines de datos y controles de acceso conformes"
+      ]
+    },
+    "ai": {
+      "title": "Inteligencia Artificial y Automatizacion Inteligente",
+      "description": "Implementamos sistemas de IA que automatizan donde es apropiado mientras preservan supervision humana—asegurando transparencia, compliance y confianza en entornos de mision critica.",
+      "capabilities": [
+        "Estrategia de IA e identificacion de casos de uso con resultados medibles",
+        "Desarrollo e integracion de modelos de machine learning",
+        "Automatizacion inteligente de procesos con controles human-in-the-loop",
+        "Marcos de gobernanza, seguridad y compliance de IA responsable"
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industrias que Servimos",
+    "description": "Entregamos soluciones especializadas en industrias clave, combinando conocimiento profundo del sector con tecnologia de vanguardia.",
+    "learnMore": "Saber mas",
+    "backToIndustries": "Volver a Industrias",
+    "keyCapabilities": "La Solucion Pi-North",
+    "contactUs": "Contactanos",
+    "problemsTitle": "Problemas de la Industria",
+    "outcomesTitle": "Resultados que los Lideres Necesitan",
+    "healthcare": {
+      "title": "TI de Salud y Salud Digital",
+      "shortDescription": "Modernizacion segura de TI de salud, integracion de sistemas y transformacion digital.",
+      "problems": "Las organizaciones de salud luchan con sistemas clinicos fragmentados, plataformas EHR legacy, flujos de trabajo manuales y requisitos estrictos de regulacion y privacidad que limitan la eficiencia e innovacion.",
+      "outcomes": [
+        "Plataformas de datos clinicos seguras e interoperables",
+        "Reduccion de carga administrativa para clinicos",
+        "Sistemas confiables y conformes listos para analitica e IA",
+        "Infraestructura resiliente que soporta seguridad del paciente"
+      ],
+      "solution": "Pi-North aplica ingenieria especifica de salud, integracion empresarial y entrega compliance-first para modernizar plataformas clinicas, administrativas y de datos asegurando seguridad, privacidad y resiliencia operativa."
+    },
+    "telecom": {
+      "title": "Telecomunicaciones",
+      "shortDescription": "Modernizacion de OSS/BSS de telecom e integracion de sistemas a escala.",
+      "problems": "Los proveedores de telecomunicaciones enfrentan plataformas OSS/BSS legacy, integraciones complejas de proveedores, altos costos operativos y presion creciente para entregar servicios digitales confiables en tiempo real.",
+      "outcomes": [
+        "Tiempo al mercado mas rapido para nuevos servicios",
+        "Datos unificados de cliente, red y operaciones",
+        "Plataformas de alta disponibilidad y resilientes",
+        "Infraestructura segura y escalable"
+      ],
+      "solution": "Pi-North entrega ingenieria disciplinada, integracion robusta de sistemas y modernizacion resiliente de plataformas para soportar operaciones de telecom de alta disponibilidad y entrega segura de servicios digitales."
+    },
+    "government": {
+      "title": "Gobierno y Sector Publico",
+      "shortDescription": "Transformacion digital segura y modernizacion legacy para agencias gubernamentales.",
+      "problems": "Las organizaciones del sector publico operan sistemas antiguos, entornos de datos fragmentados y mandatos estrictos de seguridad y compliance mientras los ciudadanos esperan servicios digitales modernos.",
+      "outcomes": [
+        "Modernizacion de bajo riesgo de plataformas legacy",
+        "Servicios digitales seguros y conformes",
+        "Datos integrados para transparencia y toma de decisiones",
+        "Sistemas resilientes que soportan continuidad de operaciones"
+      ],
+      "solution": "Pi-North moderniza plataformas gubernamentales a traves de arquitecturas cloud seguras, integracion empresarial y entrega enfocada en ejecucion alineada a requisitos de gobernanza y compliance del sector publico."
+    },
+    "bfsi": {
+      "title": "Banca, Servicios Financieros y Seguros",
+      "shortDescription": "Modernizacion de TI BFSI y transformacion digital compliance-first.",
+      "problems": "Las instituciones financieras enfrentan sistemas core legacy, entornos regulatorios complejos, datos fragmentados y procesos manuales que aumentan el riesgo operativo y ralentizan la innovacion.",
+      "outcomes": [
+        "Reduccion de riesgo operativo y de compliance",
+        "Plataformas digitales seguras y auditables",
+        "Datos integrados para analitica y reportes",
+        "Sistemas resilientes que soportan operaciones continuas"
+      ],
+      "solution": "Pi-North provee ingenieria compliance-first, integracion segura y entrega de transformacion que moderniza plataformas BFSI mientras fortalece gobernanza, resiliencia y control operativo."
+    }
+  },
+  "whyPinorth": {
+    "title": "Por Que las Empresas Eligen Pi-North",
+    "subtitle": "Una alternativa orientada a entrega frente a consultoria tradicional y servicios de TI genericos.",
+    "closing": "Pi-North combina el rigor de la consultoria empresarial con la fortaleza de ejecucion de la entrega liderada por ingenieria—sin la sobrecarga ni la fragmentacion."
+  },
+  "contact": {
+    "title": "Conecta con Pi-North",
+    "description": "Discute como Pi-North puede ayudar a modernizar tus sistemas de mision critica con ejecucion segura, escalable y orientada a entrega.",
+    "presence": "Presencia en Norteamerica con equipos de entrega en Mexico y Canada.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Socio de transformacion orientado a entrega para empresas de mision critica en Norteamerica.",
+    "quickLinks": "Enlaces Rapidos",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "industries": "Industrias",
+    "contact": "Contacto",
+    "contactTitle": "Contacto",
+    "presence": "Presencia en Norteamerica con equipos de entrega en Mexico y Canada.",
+    "rights": "Todos los derechos reservados."
+  }
+}

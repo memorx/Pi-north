@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "Delivery-Led Digital Engineering & Transformation | Pi-North",
+    "description": "Pi-North is a delivery-led transformation partner providing digital engineering, systems integration, and consulting services for mission-critical enterprises across North America."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "industries": "Industries",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Delivery-Led Digital Engineering & Transformation",
+    "subtitle": "Pi-North is a delivery-led transformation partner combining deep industry engineering, systems integration, and consulting to modernize mission-critical enterprises.",
+    "supporting": "Focused on Healthcare, Telecommunications, Government, and Financial Services across North America.",
+    "cta": "Talk to Our Team"
+  },
+  "whatWeDo": {
+    "title": "What We Do",
+    "description": "Pi-North helps organizations modernize complex, mission-critical environments through integrated engineering, platform modernization, and execution-oriented consulting. We specialize in secure, compliant, and resilient systems that scale across regulated and infrastructure-heavy industries.",
+    "capabilities": {
+      "title": "Core Capabilities",
+      "items": [
+        "Digital engineering & custom software development",
+        "Systems integration & platform modernization",
+        "Cloud & infrastructure modernization",
+        "Digital transformation consulting",
+        "Intelligent automation with human oversight"
+      ]
+    }
+  },
+  "howWeDeliver": {
+    "title": "How We Deliver",
+    "items": [
+      "Delivery-led, not slide-led",
+      "Industry-specific engineering teams",
+      "Nearshore-first execution across Mexico and Canada",
+      "Automation with human governance (Jidoka)",
+      "Secure, compliant, and resilient architectures by design"
+    ]
+  },
+  "about": {
+    "title": "About Pi-North",
+    "metaDescription": "Learn how Pi-North delivers enterprise-grade digital engineering, systems integration, and transformation services for regulated industries.",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description": "Pi-North is a digital engineering and transformation firm built to support enterprises operating in complex, regulated, and infrastructure-heavy environments."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To help mission-critical organizations modernize with confidence by delivering secure, resilient, and scalable technology solutions; combining deep engineering, integration excellence, and intelligent automation with human judgment at the core.",
+      "extended": "We execute transformation through accountable delivery, compliance-first design, and reinvestment in the communities where we operate; building local talent, strengthening technology ecosystems, and creating long-term value for our clients and partners."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the leading delivery-led transformation partner for mission-critical enterprises in North America - trusted for engineering excellence, resilient execution, and intelligent automation that keeps people at the center.",
+      "extended": "We believe scale and responsibility must grow together. As Pi-North expands, we are committed to reinvesting in the communities where we operate - developing local talent, strengthening technology ecosystems, and creating long-term value beyond individual engagements."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        "Delivery excellence",
+        "Accountability and ownership",
+        "Industry focus",
+        "Human-centered automation"
+      ]
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "metaDescription": "Explore Pi-North's enterprise IT services including digital engineering, systems integration, cloud modernization, and intelligent automation.",
+    "description": "Enterprise IT Services & Consulting",
+    "engineering": {
+      "title": "Digital Engineering & Custom Software Development",
+      "description": "We design and build secure, enterprise-grade applications and platforms aligned to industry-specific requirements and long-term scalability.",
+      "capabilities": [
+        "Custom enterprise application development",
+        "API-first and microservices architectures",
+        "Legacy system modernization",
+        "Product engineering and lifecycle support"
+      ]
+    },
+    "integration": {
+      "title": "Systems Integration & Platform Modernization",
+      "description": "We integrate complex ecosystems across legacy, cloud, and third-party platforms to ensure reliable data flow, operational continuity, and system resilience.",
+      "capabilities": [
+        "Enterprise integration architecture",
+        "Middleware and API platforms",
+        "Data interoperability and migration",
+        "Vendor and platform consolidation"
+      ]
+    },
+    "cloud": {
+      "title": "Cloud & Infrastructure Modernization",
+      "description": "We modernize infrastructure to improve resilience, security, and cost efficiency in regulated and mission-critical environments.",
+      "capabilities": [
+        "Cloud migration and hybrid architectures",
+        "Infrastructure-as-Code and automation",
+        "Platform reliability engineering",
+        "Security and compliance by design"
+      ]
+    },
+    "consulting": {
+      "title": "Digital Transformation & Enterprise Consulting",
+      "description": "Our consulting services are execution-oriented and focused on enabling measurable, technology-backed outcomes.",
+      "capabilities": [
+        "Transformation roadmaps tied to delivery",
+        "Operating model and process redesign",
+        "Technology strategy aligned to execution",
+        "Program governance and change enablement"
+      ]
+    },
+    "automation": {
+      "title": "Intelligent Automation & Jidoka Enablement",
+      "description": "We implement intelligent automation that improves efficiency while maintaining human oversight, auditability, and operational control.",
+      "capabilities": [
+        "Process automation and workflow orchestration",
+        "Human-in-the-loop automation models",
+        "Decision support systems",
+        "Operational efficiency programs"
+      ]
+    },
+    "analytics": {
+      "title": "Data Analytics & Decision Platforms",
+      "description": "We design and implement secure analytics platforms that unify data across systems, support regulatory requirements, and enable real-time operational and strategic decision-making.",
+      "capabilities": [
+        "Enterprise data architecture and platform design",
+        "Data integration, quality, and governance frameworks",
+        "Operational and executive analytics dashboards",
+        "Regulatory-compliant data pipelines and access controls"
+      ]
+    },
+    "ai": {
+      "title": "Artificial Intelligence & Intelligent Automation",
+      "description": "We implement AI systems that automate where appropriate while preserving human oversight—ensuring transparency, compliance, and trust in mission-critical environments.",
+      "capabilities": [
+        "AI strategy and use-case identification tied to measurable outcomes",
+        "Machine learning model development and integration",
+        "Intelligent process automation with human-in-the-loop controls",
+        "Responsible AI governance, security, and compliance frameworks"
+      ]
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "description": "We deliver specialized solutions across key industries, combining deep sector knowledge with cutting-edge technology.",
+    "learnMore": "Learn more",
+    "backToIndustries": "Back to Industries",
+    "keyCapabilities": "The Pi-North Solution",
+    "contactUs": "Contact Us",
+    "problemsTitle": "Industry Problems",
+    "outcomesTitle": "Outcomes Leaders Need",
+    "healthcare": {
+      "title": "Healthcare IT & Digital Health",
+      "shortDescription": "Secure healthcare IT modernization, systems integration, and digital transformation.",
+      "problems": "Healthcare organizations struggle with fragmented clinical systems, legacy EHR platforms, manual workflows, and strict regulatory and privacy requirements that limit efficiency and innovation.",
+      "outcomes": [
+        "Secure and interoperable clinical data platforms",
+        "Reduced administrative burden for clinicians",
+        "Reliable, compliant systems ready for analytics and AI",
+        "Resilient infrastructure that supports patient safety"
+      ],
+      "solution": "Pi-North applies healthcare-specific engineering, enterprise integration, and compliance-first delivery to modernize clinical, administrative, and data platforms while ensuring security, privacy, and operational resilience."
+    },
+    "telecom": {
+      "title": "Telecommunications",
+      "shortDescription": "Telecom OSS/BSS modernization and systems integration at scale.",
+      "problems": "Telecommunications providers face legacy OSS/BSS platforms, complex vendor integrations, high operational costs, and increasing pressure to deliver reliable, real-time digital services.",
+      "outcomes": [
+        "Faster time-to-market for new services",
+        "Unified customer, network, and operational data",
+        "Highly available and resilient platforms",
+        "Secure, scalable infrastructure"
+      ],
+      "solution": "Pi-North delivers disciplined engineering, robust systems integration, and resilient platform modernization to support high-availability telecom operations and secure digital service delivery."
+    },
+    "government": {
+      "title": "Government & Public Sector",
+      "shortDescription": "Secure digital transformation and legacy modernization for government agencies.",
+      "problems": "Public-sector organizations operate aging systems, fragmented data environments, and strict security and compliance mandates while citizens expect modern digital services.",
+      "outcomes": [
+        "Lower-risk modernization of legacy platforms",
+        "Secure, compliant digital services",
+        "Integrated data for transparency and decision-making",
+        "Resilient systems supporting continuity of operations"
+      ],
+      "solution": "Pi-North modernizes government platforms through secure cloud architectures, enterprise integration, and execution-focused delivery aligned to public-sector governance and compliance requirements."
+    },
+    "bfsi": {
+      "title": "Banking, Financial Services & Insurance",
+      "shortDescription": "BFSI IT modernization and compliance-first digital transformation.",
+      "problems": "Financial institutions face legacy core systems, complex regulatory environments, fragmented data, and manual processes that increase operational risk and slow innovation.",
+      "outcomes": [
+        "Reduced operational and compliance risk",
+        "Secure, auditable digital platforms",
+        "Integrated data for analytics and reporting",
+        "Resilient systems supporting continuous operations"
+      ],
+      "solution": "Pi-North provides compliance-first engineering, secure integration, and transformation delivery that modernizes BFSI platforms while strengthening governance, resilience, and operational control."
+    }
+  },
+  "whyPinorth": {
+    "title": "Why Enterprises Choose Pi-North",
+    "subtitle": "A delivery-led alternative to traditional consulting and generic IT services.",
+    "closing": "Pi-North combines the rigor of enterprise consulting with the execution strength of engineering-led delivery—without the overhead or fragmentation."
+  },
+  "contact": {
+    "title": "Engage with Pi-North",
+    "description": "Discuss how Pi-North can help modernize your mission-critical systems with secure, scalable, and delivery-led execution.",
+    "presence": "Presence across North America with delivery teams in Mexico and Canada.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Delivery-led transformation partner for mission-critical enterprises across North America.",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "services": "Services",
+    "industries": "Industries",
+    "contact": "Contact",
+    "contactTitle": "Contact",
+    "presence": "Presence across North America with delivery teams in Mexico and Canada.",
+    "rights": "All rights reserved."
+  }
+}
