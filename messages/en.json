@@ -237,59 +237,46 @@
     "subtitle": "Proven delivery across mission-critical industries. We bring deep expertise and measurable outcomes to every engagement.",
     "filters": {
       "all": "All",
-      "healthcare": "Healthcare",
-      "telecom": "Telecom",
+      "enterprise": "Enterprise",
       "government": "Government",
       "bfsi": "Financial Services"
     },
     "projects": {
-      "healthcare-modernization": {
-        "title": "Clinical Systems Modernization",
-        "description": "End-to-end modernization of legacy clinical systems, enabling seamless interoperability and improved patient care workflows.",
-        "metrics": ["40% reduction in system downtime", "HIPAA compliant architecture", "99.9% uptime achieved", "Integrated 15+ legacy systems"],
-        "solution": "Comprehensive platform modernization with cloud-native architecture and real-time data integration."
+      "wenco-hitachi": {
+        "title": "Wenco Mining Platform (Hitachi)",
+        "description": "Enterprise IoT system for mission-critical mining operations with real-time telemetry across continents. Led frontend team for 4+ years.",
+        "metrics": ["Multi-Continent Deployment", "99.9% Uptime SLA", "Real-time Telemetry", "15+ Engineers Managed"],
+        "solution": "Cloud-native IoT platform with Azure services and Kubernetes orchestration."
       },
-      "healthcare-interoperability": {
-        "title": "Healthcare Data Interoperability",
-        "description": "Built a unified data platform enabling secure exchange of patient information across multiple healthcare providers.",
-        "metrics": ["50+ provider integrations", "Real-time data sync", "HL7 FHIR compliant", "Reduced data latency by 80%"],
-        "solution": "API-first architecture with robust security and compliance frameworks."
+      "disney-movie-insiders": {
+        "title": "Disney Movie Insiders",
+        "description": "Enabled Disney Movie Insiders to exchange points online for movie tickets and merchandise with frontend architecture design.",
+        "metrics": ["Disney Partnership", "Points Exchange System", "E-commerce Integration", "UI/UX Delivery"],
+        "solution": "Modern React architecture with seamless payment and rewards integration."
       },
-      "telecom-integration": {
-        "title": "OSS/BSS Platform Integration",
-        "description": "Unified disparate operational and business support systems to enable seamless service delivery and customer experience.",
-        "metrics": ["30% faster service activation", "Unified customer view", "Real-time billing sync", "Zero revenue leakage"],
-        "solution": "Microservices-based integration layer with event-driven architecture."
+      "central1-payroll": {
+        "title": "Central 1 Credit Union - Payroll Solutions",
+        "description": "Small business payroll solutions across credit unions. Led 5 credit unions and 2 junior developers as Scrum Master of 7-member team.",
+        "metrics": ["2+ Year Project", "Team Leadership", "Angular Migration", "WCAG Compliance"],
+        "solution": "Enterprise Angular platform with accessibility-first design and Oracle integration."
       },
-      "telecom-bss": {
-        "title": "Next-Gen BSS Transformation",
-        "description": "Complete transformation of billing and revenue management systems for a major telecommunications provider.",
-        "metrics": ["$2M+ annual savings", "99.99% billing accuracy", "Real-time usage tracking", "50% faster time-to-market"],
-        "solution": "Cloud-native BSS platform with AI-powered revenue assurance."
+      "myrichmond-gov": {
+        "title": "MyRichmond - City of Richmond",
+        "description": "Streamlined citizen interactions with City of Richmond: centralized hub for taxes, utilities, garbage collection, recycling with feedback mechanisms.",
+        "metrics": ["Municipal Platform", "Citizen Services", "Search & Calendar", "Feedback Systems"],
+        "solution": "Modern React platform with AWS infrastructure and municipal API integrations."
       },
-      "gov-digital-transformation": {
-        "title": "Federal Agency Modernization",
-        "description": "Led digital transformation initiative to modernize legacy systems and improve citizen service delivery.",
-        "metrics": ["60% cost reduction", "FedRAMP compliant", "24/7 availability", "10x faster processing"],
-        "solution": "Secure cloud migration with zero-trust security architecture."
+      "unity-robotics": {
+        "title": "Unity Technologies - Robotics IDE",
+        "description": "Browser-based IDE for Tethys educational platform enabling K-12 students to program Pepper robots (SoftBank partnership).",
+        "metrics": ["In-Browser Programming", "K-12 Education", "React + TypeScript", "Zero Installation"],
+        "solution": "WebSocket-powered IDE with real-time robot communication and Python execution."
       },
-      "gov-citizen-services": {
-        "title": "Citizen Services Portal",
-        "description": "Developed a unified digital platform for citizen engagement and government service delivery.",
-        "metrics": ["1M+ active users", "90% satisfaction rate", "Mobile-first design", "Accessible (WCAG 2.1)"],
-        "solution": "Modern web platform with multi-channel support and robust accessibility."
-      },
-      "bfsi-core-banking": {
-        "title": "Core Banking Modernization",
-        "description": "Modernized core banking infrastructure to support digital-first operations and improved customer experience.",
-        "metrics": ["Sub-second transactions", "99.999% availability", "Real-time fraud detection", "PCI-DSS compliant"],
-        "solution": "Event-driven architecture with real-time processing capabilities."
-      },
-      "bfsi-insurance-platform": {
-        "title": "Insurance Platform Transformation",
-        "description": "End-to-end digital transformation of insurance operations, from underwriting to claims processing.",
-        "metrics": ["70% faster claims", "AI-powered underwriting", "Digital-first experience", "40% OpEx reduction"],
-        "solution": "Cloud-native platform with intelligent automation and analytics."
+      "subastas-lasilla": {
+        "title": "Subastas La Silla",
+        "description": "Real-time auction platform supporting 1,000+ concurrent users during live horse auctions with WebSocket bidding and zero downtime.",
+        "metrics": ["1,000+ Concurrent Users", "Real-time Bidding", "Zero Downtime", "Django + Nuxt.js"],
+        "solution": "High-performance auction engine with Redis caching and WebSocket broadcasting."
       }
     },
     "cta": {
@@ -300,20 +287,24 @@
   },
   "portfolioHighlights": {
     "title": "Proven Industry Expertise",
-    "subtitle": "Delivering measurable outcomes across regulated and mission-critical industries.",
+    "subtitle": "Delivering measurable outcomes across enterprise, government, and financial services.",
     "viewAll": "View all case studies",
     "highlights": {
-      "healthcare": {
-        "summary": "Clinical systems modernization and healthcare data interoperability solutions."
+      "wenco": {
+        "title": "Wenco / Hitachi",
+        "summary": "Enterprise IoT for mission-critical mining with 99.9% uptime SLA."
       },
-      "telecom": {
-        "summary": "OSS/BSS transformation and next-generation service delivery platforms."
+      "disney": {
+        "title": "Disney",
+        "summary": "Movie Insiders points exchange and e-commerce platform."
       },
-      "government": {
-        "summary": "Secure digital transformation and citizen services modernization."
+      "central1": {
+        "title": "Central 1 Credit Union",
+        "summary": "Payroll solutions for credit unions with WCAG compliance."
       },
-      "bfsi": {
-        "summary": "Core banking modernization and insurance platform transformation."
+      "myrichmond": {
+        "title": "City of Richmond",
+        "summary": "Municipal citizen services portal and feedback systems."
       }
     }
   }

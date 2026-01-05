@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { motion, useInView } from "framer-motion";
-import { ArrowRight, Shield, Zap, Building2, TrendingUp } from "lucide-react";
+import { ArrowRight, Cpu, Film, Building2, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 const containerVariants = {
@@ -44,30 +44,29 @@ const cardVariants = {
 
 const highlights = [
   {
-    id: "healthcare",
-    icon: Shield,
-    techStack: ["Azure", "HL7 FHIR", "React"],
+    id: "wenco",
+    icon: Cpu,
+    techStack: ["React", "Azure IoT", "Kubernetes"],
   },
   {
-    id: "telecom",
-    icon: Zap,
-    techStack: ["AWS", "Kubernetes", "Node.js"],
+    id: "disney",
+    icon: Film,
+    techStack: ["React", "Node.js", "Stripe"],
   },
   {
-    id: "government",
-    icon: Building2,
-    techStack: ["GCP", "Python", "Terraform"],
-  },
-  {
-    id: "bfsi",
+    id: "central1",
     icon: TrendingUp,
-    techStack: ["Java", "Oracle", "Kafka"],
+    techStack: ["Angular", "Java", "Oracle"],
+  },
+  {
+    id: "myrichmond",
+    icon: Building2,
+    techStack: ["React", "Node.js", "AWS"],
   },
 ];
 
 export default function PortfolioHighlights() {
   const t = useTranslations("portfolioHighlights");
-  const tIndustries = useTranslations("industries");
   const locale = useLocale();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
@@ -96,7 +95,7 @@ export default function PortfolioHighlights() {
 
         {/* Highlights grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {highlights.map((item, idx) => {
+          {highlights.map((item) => {
             const Icon = item.icon;
             return (
               <motion.div
@@ -114,7 +113,7 @@ export default function PortfolioHighlights() {
                 </div>
 
                 <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-gold transition-colors">
-                  {tIndustries(`${item.id}.title`)}
+                  {t(`highlights.${item.id}.title`)}
                 </h3>
 
                 <p className="text-sm text-muted-foreground mb-4 line-clamp-2">

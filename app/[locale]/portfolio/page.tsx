@@ -7,7 +7,7 @@ import { Filter, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import CaseStudyCard from "@/components/portfolio/CaseStudyCard";
 
-type ProjectCategory = "all" | "healthcare" | "telecom" | "government" | "bfsi";
+type ProjectCategory = "all" | "enterprise" | "government" | "bfsi";
 
 interface Project {
   id: string;
@@ -18,58 +18,45 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: "healthcare-modernization",
-    category: "healthcare",
-    client: "Regional Health System",
-    techStack: ["Azure", "HL7 FHIR", "React", "PostgreSQL"],
+    id: "wenco-hitachi",
+    category: "enterprise",
+    client: "Hitachi / Wenco Mining Systems",
+    techStack: ["React", "Azure IoT", "C#", "Kubernetes", "Docker"],
   },
   {
-    id: "healthcare-interoperability",
-    category: "healthcare",
-    client: "Healthcare Network",
-    techStack: ["AWS", "Node.js", "MongoDB", "Docker"],
+    id: "disney-movie-insiders",
+    category: "enterprise",
+    client: "Disney / Radical I/O",
+    techStack: ["React", "Node.js", "PostgreSQL", "Stripe"],
   },
   {
-    id: "telecom-integration",
-    category: "telecom",
-    client: "Major Telecom Provider",
-    techStack: ["AWS", "Kubernetes", "Node.js", "Redis"],
-  },
-  {
-    id: "telecom-bss",
-    category: "telecom",
-    client: "Telecommunications Company",
-    techStack: ["Java", "Oracle", "Apache Kafka", "Microservices"],
-  },
-  {
-    id: "gov-digital-transformation",
-    category: "government",
-    client: "Federal Agency",
-    techStack: ["GCP", "Python", "Terraform", "Docker"],
-  },
-  {
-    id: "gov-citizen-services",
-    category: "government",
-    client: "State Government",
-    techStack: ["Azure", "React", ".NET", "SQL Server"],
-  },
-  {
-    id: "bfsi-core-banking",
+    id: "central1-payroll",
     category: "bfsi",
-    client: "Regional Bank",
-    techStack: ["Java", "Oracle", "Angular", "Kafka"],
+    client: "Central 1 Credit Union",
+    techStack: ["Angular", "Java", "Oracle DB", "Jenkins"],
   },
   {
-    id: "bfsi-insurance-platform",
-    category: "bfsi",
-    client: "Insurance Company",
-    techStack: ["Python", "PostgreSQL", "React", "AWS"],
+    id: "myrichmond-gov",
+    category: "government",
+    client: "City of Richmond, BC",
+    techStack: ["React", "Node.js", "PostgreSQL", "AWS"],
+  },
+  {
+    id: "unity-robotics",
+    category: "enterprise",
+    client: "Unity Technologies / SoftBank",
+    techStack: ["React", "TypeScript", "WebSockets", "Python"],
+  },
+  {
+    id: "subastas-lasilla",
+    category: "enterprise",
+    client: "La Silla",
+    techStack: ["Django", "Nuxt.js", "PostgreSQL", "Redis", "AWS"],
   },
 ];
 
 export default function PortfolioPage() {
   const t = useTranslations("portfolio");
-  const tIndustries = useTranslations("industries");
   const locale = useLocale();
   const [activeFilter, setActiveFilter] = useState<ProjectCategory>("all");
 
@@ -80,14 +67,19 @@ export default function PortfolioPage() {
 
   const filters: { id: ProjectCategory; labelKey: string }[] = [
     { id: "all", labelKey: "filters.all" },
-    { id: "healthcare", labelKey: "filters.healthcare" },
-    { id: "telecom", labelKey: "filters.telecom" },
+    { id: "enterprise", labelKey: "filters.enterprise" },
     { id: "government", labelKey: "filters.government" },
     { id: "bfsi", labelKey: "filters.bfsi" },
   ];
 
+  const categoryLabels: Record<string, string> = {
+    enterprise: t("filters.enterprise"),
+    government: t("filters.government"),
+    bfsi: t("filters.bfsi"),
+  };
+
   const getCategoryLabel = (category: string) => {
-    return tIndustries(`${category}.title`);
+    return categoryLabels[category] || category;
   };
 
   return (

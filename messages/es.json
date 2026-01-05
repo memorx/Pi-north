@@ -237,59 +237,46 @@
     "subtitle": "Entrega comprobada en industrias de mision critica. Aportamos experiencia profunda y resultados medibles en cada compromiso.",
     "filters": {
       "all": "Todos",
-      "healthcare": "Salud",
-      "telecom": "Telecom",
+      "enterprise": "Empresarial",
       "government": "Gobierno",
       "bfsi": "Servicios Financieros"
     },
     "projects": {
-      "healthcare-modernization": {
-        "title": "Modernizacion de Sistemas Clinicos",
-        "description": "Modernizacion integral de sistemas clinicos legacy, habilitando interoperabilidad fluida y mejores flujos de trabajo en atencion al paciente.",
-        "metrics": ["40% reduccion en tiempo de inactividad", "Arquitectura compatible con HIPAA", "99.9% de disponibilidad", "Integracion de 15+ sistemas legacy"],
-        "solution": "Modernizacion integral de plataforma con arquitectura cloud-native e integracion de datos en tiempo real."
+      "wenco-hitachi": {
+        "title": "Plataforma Minera Wenco (Hitachi)",
+        "description": "Sistema IoT empresarial para operaciones mineras criticas con telemetria en tiempo real a traves de continentes. Lidere equipo frontend por 4+ anos.",
+        "metrics": ["Despliegue Multi-Continente", "99.9% SLA de Disponibilidad", "Telemetria en Tiempo Real", "15+ Ingenieros Gestionados"],
+        "solution": "Plataforma IoT cloud-native con servicios Azure y orquestacion Kubernetes."
       },
-      "healthcare-interoperability": {
-        "title": "Interoperabilidad de Datos de Salud",
-        "description": "Construccion de plataforma unificada de datos para intercambio seguro de informacion de pacientes entre multiples proveedores.",
-        "metrics": ["50+ integraciones de proveedores", "Sincronizacion en tiempo real", "Compatible con HL7 FHIR", "Reduccion de latencia de datos en 80%"],
-        "solution": "Arquitectura API-first con robustos marcos de seguridad y cumplimiento."
+      "disney-movie-insiders": {
+        "title": "Disney Movie Insiders",
+        "description": "Habilitamos a Disney Movie Insiders para intercambiar puntos en linea por boletos de cine y mercancia con diseno de arquitectura frontend.",
+        "metrics": ["Asociacion Disney", "Sistema de Intercambio de Puntos", "Integracion E-commerce", "Entrega UI/UX"],
+        "solution": "Arquitectura React moderna con integracion fluida de pagos y recompensas."
       },
-      "telecom-integration": {
-        "title": "Integracion de Plataforma OSS/BSS",
-        "description": "Unificacion de sistemas operativos y de soporte de negocio dispares para habilitar entrega de servicios y experiencia de cliente sin fricciones.",
-        "metrics": ["30% mas rapido en activacion de servicios", "Vista unificada del cliente", "Sincronizacion de facturacion en tiempo real", "Cero fuga de ingresos"],
-        "solution": "Capa de integracion basada en microservicios con arquitectura orientada a eventos."
+      "central1-payroll": {
+        "title": "Central 1 Credit Union - Soluciones de Nomina",
+        "description": "Soluciones de nomina para pequenas empresas en cooperativas de credito. Lidere 5 cooperativas y 2 desarrolladores junior como Scrum Master de equipo de 7 miembros.",
+        "metrics": ["Proyecto 2+ Anos", "Liderazgo de Equipo", "Migracion Angular", "Cumplimiento WCAG"],
+        "solution": "Plataforma Angular empresarial con diseno accesibilidad-first e integracion Oracle."
       },
-      "telecom-bss": {
-        "title": "Transformacion BSS de Nueva Generacion",
-        "description": "Transformacion completa de sistemas de facturacion y gestion de ingresos para un importante proveedor de telecomunicaciones.",
-        "metrics": ["$2M+ en ahorros anuales", "99.99% precision en facturacion", "Seguimiento de uso en tiempo real", "50% mas rapido al mercado"],
-        "solution": "Plataforma BSS cloud-native con aseguramiento de ingresos impulsado por IA."
+      "myrichmond-gov": {
+        "title": "MyRichmond - Ciudad de Richmond",
+        "description": "Simplifique interacciones ciudadanas con la Ciudad de Richmond: hub centralizado para impuestos, servicios publicos, recoleccion de basura, reciclaje con mecanismos de retroalimentacion.",
+        "metrics": ["Plataforma Municipal", "Servicios Ciudadanos", "Busqueda y Calendario", "Sistemas de Feedback"],
+        "solution": "Plataforma React moderna con infraestructura AWS e integraciones API municipales."
       },
-      "gov-digital-transformation": {
-        "title": "Modernizacion de Agencia Federal",
-        "description": "Lideramos iniciativa de transformacion digital para modernizar sistemas legacy y mejorar la entrega de servicios ciudadanos.",
-        "metrics": ["60% reduccion de costos", "Compatible con FedRAMP", "Disponibilidad 24/7", "Procesamiento 10x mas rapido"],
-        "solution": "Migracion segura a la nube con arquitectura de seguridad zero-trust."
+      "unity-robotics": {
+        "title": "Unity Technologies - IDE de Robotica",
+        "description": "IDE basado en navegador para plataforma educativa Tethys permitiendo a estudiantes K-12 programar robots Pepper (asociacion SoftBank).",
+        "metrics": ["Programacion en Navegador", "Educacion K-12", "React + TypeScript", "Sin Instalacion"],
+        "solution": "IDE impulsado por WebSocket con comunicacion de robot en tiempo real y ejecucion Python."
       },
-      "gov-citizen-services": {
-        "title": "Portal de Servicios Ciudadanos",
-        "description": "Desarrollo de plataforma digital unificada para engagement ciudadano y entrega de servicios gubernamentales.",
-        "metrics": ["1M+ usuarios activos", "90% tasa de satisfaccion", "Diseno mobile-first", "Accesible (WCAG 2.1)"],
-        "solution": "Plataforma web moderna con soporte multicanal y accesibilidad robusta."
-      },
-      "bfsi-core-banking": {
-        "title": "Modernizacion de Core Bancario",
-        "description": "Modernizacion de infraestructura de core bancario para soportar operaciones digital-first y mejor experiencia de cliente.",
-        "metrics": ["Transacciones sub-segundo", "99.999% disponibilidad", "Deteccion de fraude en tiempo real", "Compatible con PCI-DSS"],
-        "solution": "Arquitectura orientada a eventos con capacidades de procesamiento en tiempo real."
-      },
-      "bfsi-insurance-platform": {
-        "title": "Transformacion de Plataforma de Seguros",
-        "description": "Transformacion digital integral de operaciones de seguros, desde suscripcion hasta procesamiento de reclamos.",
-        "metrics": ["70% mas rapido en reclamos", "Suscripcion impulsada por IA", "Experiencia digital-first", "40% reduccion OpEx"],
-        "solution": "Plataforma cloud-native con automatizacion inteligente y analitica."
+      "subastas-lasilla": {
+        "title": "Subastas La Silla",
+        "description": "Plataforma de subastas en tiempo real soportando 1,000+ usuarios concurrentes durante subastas de caballos en vivo con pujas WebSocket y cero caidas.",
+        "metrics": ["1,000+ Usuarios Concurrentes", "Pujas en Tiempo Real", "Cero Caidas", "Django + Nuxt.js"],
+        "solution": "Motor de subastas de alto rendimiento con cache Redis y broadcasting WebSocket."
       }
     },
     "cta": {
@@ -300,20 +287,24 @@
   },
   "portfolioHighlights": {
     "title": "Experiencia Comprobada en Industria",
-    "subtitle": "Entregando resultados medibles en industrias reguladas y de mision critica.",
+    "subtitle": "Entregando resultados medibles en empresas, gobierno y servicios financieros.",
     "viewAll": "Ver todos los casos de estudio",
     "highlights": {
-      "healthcare": {
-        "summary": "Modernizacion de sistemas clinicos y soluciones de interoperabilidad de datos de salud."
+      "wenco": {
+        "title": "Wenco / Hitachi",
+        "summary": "IoT empresarial para mineria de mision critica con 99.9% SLA."
       },
-      "telecom": {
-        "summary": "Transformacion OSS/BSS y plataformas de entrega de servicios de nueva generacion."
+      "disney": {
+        "title": "Disney",
+        "summary": "Plataforma de intercambio de puntos y e-commerce Movie Insiders."
       },
-      "government": {
-        "summary": "Transformacion digital segura y modernizacion de servicios ciudadanos."
+      "central1": {
+        "title": "Central 1 Credit Union",
+        "summary": "Soluciones de nomina para cooperativas con cumplimiento WCAG."
       },
-      "bfsi": {
-        "summary": "Modernizacion de core bancario y transformacion de plataformas de seguros."
+      "myrichmond": {
+        "title": "Ciudad de Richmond",
+        "summary": "Portal de servicios ciudadanos municipales y sistemas de feedback."
       }
     }
   }
