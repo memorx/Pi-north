@@ -8,13 +8,17 @@
     "about": "About",
     "services": "Services",
     "industries": "Industries",
+    "portfolio": "Experience",
     "contact": "Contact"
   },
   "hero": {
+    "badge": "Enterprise Digital Transformation",
     "title": "Delivery-Led Digital Engineering & Transformation",
     "subtitle": "Pi-North is a delivery-led transformation partner combining deep industry engineering, systems integration, and consulting to modernize mission-critical enterprises.",
     "supporting": "Focused on Healthcare, Telecommunications, Government, and Financial Services across North America.",
-    "cta": "Talk to Our Team"
+    "cta": "Talk to Our Team",
+    "ctaSecondary": "Explore Services",
+    "trusted": "Trusted by leading organizations in:"
   },
   "whatWeDo": {
     "title": "What We Do",
@@ -227,5 +231,90 @@
     "contactTitle": "Contact",
     "presence": "Presence across North America with delivery teams in Mexico and Canada.",
     "rights": "All rights reserved."
+  },
+  "portfolio": {
+    "title": "Our Experience",
+    "subtitle": "Proven delivery across mission-critical industries. We bring deep expertise and measurable outcomes to every engagement.",
+    "filters": {
+      "all": "All",
+      "healthcare": "Healthcare",
+      "telecom": "Telecom",
+      "government": "Government",
+      "bfsi": "Financial Services"
+    },
+    "projects": {
+      "healthcare-modernization": {
+        "title": "Clinical Systems Modernization",
+        "description": "End-to-end modernization of legacy clinical systems, enabling seamless interoperability and improved patient care workflows.",
+        "metrics": ["40% reduction in system downtime", "HIPAA compliant architecture", "99.9% uptime achieved", "Integrated 15+ legacy systems"],
+        "solution": "Comprehensive platform modernization with cloud-native architecture and real-time data integration."
+      },
+      "healthcare-interoperability": {
+        "title": "Healthcare Data Interoperability",
+        "description": "Built a unified data platform enabling secure exchange of patient information across multiple healthcare providers.",
+        "metrics": ["50+ provider integrations", "Real-time data sync", "HL7 FHIR compliant", "Reduced data latency by 80%"],
+        "solution": "API-first architecture with robust security and compliance frameworks."
+      },
+      "telecom-integration": {
+        "title": "OSS/BSS Platform Integration",
+        "description": "Unified disparate operational and business support systems to enable seamless service delivery and customer experience.",
+        "metrics": ["30% faster service activation", "Unified customer view", "Real-time billing sync", "Zero revenue leakage"],
+        "solution": "Microservices-based integration layer with event-driven architecture."
+      },
+      "telecom-bss": {
+        "title": "Next-Gen BSS Transformation",
+        "description": "Complete transformation of billing and revenue management systems for a major telecommunications provider.",
+        "metrics": ["$2M+ annual savings", "99.99% billing accuracy", "Real-time usage tracking", "50% faster time-to-market"],
+        "solution": "Cloud-native BSS platform with AI-powered revenue assurance."
+      },
+      "gov-digital-transformation": {
+        "title": "Federal Agency Modernization",
+        "description": "Led digital transformation initiative to modernize legacy systems and improve citizen service delivery.",
+        "metrics": ["60% cost reduction", "FedRAMP compliant", "24/7 availability", "10x faster processing"],
+        "solution": "Secure cloud migration with zero-trust security architecture."
+      },
+      "gov-citizen-services": {
+        "title": "Citizen Services Portal",
+        "description": "Developed a unified digital platform for citizen engagement and government service delivery.",
+        "metrics": ["1M+ active users", "90% satisfaction rate", "Mobile-first design", "Accessible (WCAG 2.1)"],
+        "solution": "Modern web platform with multi-channel support and robust accessibility."
+      },
+      "bfsi-core-banking": {
+        "title": "Core Banking Modernization",
+        "description": "Modernized core banking infrastructure to support digital-first operations and improved customer experience.",
+        "metrics": ["Sub-second transactions", "99.999% availability", "Real-time fraud detection", "PCI-DSS compliant"],
+        "solution": "Event-driven architecture with real-time processing capabilities."
+      },
+      "bfsi-insurance-platform": {
+        "title": "Insurance Platform Transformation",
+        "description": "End-to-end digital transformation of insurance operations, from underwriting to claims processing.",
+        "metrics": ["70% faster claims", "AI-powered underwriting", "Digital-first experience", "40% OpEx reduction"],
+        "solution": "Cloud-native platform with intelligent automation and analytics."
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Operations?",
+      "description": "Let's discuss how Pi-North can help modernize your mission-critical systems with secure, scalable, and delivery-led execution.",
+      "button": "Start a Conversation"
+    }
+  },
+  "portfolioHighlights": {
+    "title": "Proven Industry Expertise",
+    "subtitle": "Delivering measurable outcomes across regulated and mission-critical industries.",
+    "viewAll": "View all case studies",
+    "highlights": {
+      "healthcare": {
+        "summary": "Clinical systems modernization and healthcare data interoperability solutions."
+      },
+      "telecom": {
+        "summary": "OSS/BSS transformation and next-generation service delivery platforms."
+      },
+      "government": {
+        "summary": "Secure digital transformation and citizen services modernization."
+      },
+      "bfsi": {
+        "summary": "Core banking modernization and insurance platform transformation."
+      }
+    }
   }
 }

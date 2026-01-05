@@ -4,6 +4,8 @@ import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, Check, HeartPulse, Radio, Building, Landmark } from "lucide-react";
 import Link from "next/link";
+import HeroSection from "@/components/home/HeroSection";
+import PortfolioHighlights from "@/components/home/PortfolioHighlights";
 
 const industries = [
   { id: "healthcare", icon: HeartPulse },
@@ -11,13 +13,6 @@ const industries = [
   { id: "government", icon: Building },
   { id: "bfsi", icon: Landmark },
 ];
-
-// Simplified fade animation
-const fadeIn = {
-  initial: { opacity: 0, y: 10 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.4 }
-};
 
 export default function HomePage() {
   const t = useTranslations();
@@ -29,42 +24,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="min-h-[85vh] flex items-center justify-center px-4 pt-20">
-        <div className="max-w-5xl mx-auto text-center">
-          <motion.h1
-            {...fadeIn}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 heading-gold"
-          >
-            {t("hero.title")}
-          </motion.h1>
-
-          <motion.p
-            {...fadeIn}
-            transition={{ duration: 0.4, delay: 0.1 }}
-            className="text-lg md:text-xl text-silver mb-4 max-w-3xl mx-auto"
-          >
-            {t("hero.subtitle")}
-          </motion.p>
-
-          <motion.p
-            {...fadeIn}
-            transition={{ duration: 0.4, delay: 0.15 }}
-            className="text-base text-muted-foreground mb-10"
-          >
-            {t("hero.supporting")}
-          </motion.p>
-
-          <motion.div
-            {...fadeIn}
-            transition={{ duration: 0.4, delay: 0.2 }}
-          >
-            <Link href={`/${locale}/contact`} className="btn-primary inline-flex items-center gap-2">
-              {t("hero.cta")}
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+      <HeroSection />
 
       {/* What We Do Section */}
       <section className="py-20 px-4 section-alt">
@@ -166,7 +126,7 @@ export default function HomePage() {
       </section>
 
       {/* How We Deliver Section */}
-      <section className="py-20 px-4 section-alt">
+      <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0 }}
@@ -180,25 +140,33 @@ export default function HomePage() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {howWeDeliver.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.3, delay: index * 0.05 }}
-                viewport={{ once: true }}
-                className="p-6 card-corporate"
-              >
-                <div className="w-8 h-8 rounded bg-gold/20 text-gold flex items-center justify-center font-bold text-sm mb-4">
-                  {index + 1}
-                </div>
-                <p className="text-silver">{item}</p>
-              </motion.div>
-            ))}
+          <div className="relative">
+            {/* Connecting line */}
+            <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-gold/20 to-transparent -translate-y-1/2" />
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+              {howWeDeliver.map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="relative p-6 card-corporate text-center group hover:border-gold/40 transition-all duration-300"
+                >
+                  <div className="w-10 h-10 rounded-full bg-gold/20 text-gold flex items-center justify-center font-bold text-lg mb-4 mx-auto group-hover:bg-gold group-hover:text-background transition-colors duration-300">
+                    {index + 1}
+                  </div>
+                  <p className="text-silver text-sm">{item}</p>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
+
+      {/* Portfolio Highlights Section */}
+      <PortfolioHighlights />
 
       {/* CTA Section */}
       <section className="py-20 px-4">

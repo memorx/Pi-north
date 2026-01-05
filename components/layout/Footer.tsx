@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -21,7 +22,15 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold heading-gold tracking-wider mb-4">PINORTH</h3>
+            <Link href={`/${locale}`} className="inline-block mb-4">
+              <Image
+                src="/images/pinorth_brand_1.png"
+                alt="Pi-North"
+                width={160}
+                height={40}
+                className="h-10 w-auto"
+              />
+            </Link>
             <p className="text-muted-foreground text-sm max-w-md">
               {t("description")}
             </p>

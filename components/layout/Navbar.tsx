@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Globe } from "lucide-react";
 
@@ -17,6 +18,7 @@ export default function Navbar() {
     { href: `/${locale}/about`, label: t("about") },
     { href: `/${locale}/services`, label: t("services") },
     { href: `/${locale}/industries`, label: t("industries") },
+    { href: `/${locale}/portfolio`, label: t("portfolio") },
     { href: `/${locale}/contact`, label: t("contact") },
   ];
 
@@ -31,8 +33,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`/${locale}`} className="text-xl font-bold heading-gold tracking-wider">
-            PINORTH
+          <Link href={`/${locale}`} className="flex items-center">
+            <Image
+              src="/images/pinorth_brand_1.png"
+              alt="Pi-North"
+              width={140}
+              height={36}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

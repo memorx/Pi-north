@@ -8,13 +8,17 @@
     "about": "Nosotros",
     "services": "Servicios",
     "industries": "Industrias",
+    "portfolio": "Experiencia",
     "contact": "Contacto"
   },
   "hero": {
+    "badge": "Transformacion Digital Empresarial",
     "title": "Ingenieria Digital y Transformacion Orientada a Resultados",
     "subtitle": "Pi-North es un socio de transformacion que combina ingenieria industrial profunda, integracion de sistemas y consultoria para modernizar empresas de mision critica.",
     "supporting": "Enfocados en Salud, Telecomunicaciones, Gobierno y Servicios Financieros en Norteamerica.",
-    "cta": "Habla con Nuestro Equipo"
+    "cta": "Habla con Nuestro Equipo",
+    "ctaSecondary": "Explorar Servicios",
+    "trusted": "Confianza de organizaciones lideres en:"
   },
   "whatWeDo": {
     "title": "Lo Que Hacemos",
@@ -227,5 +231,90 @@
     "contactTitle": "Contacto",
     "presence": "Presencia en Norteamerica con equipos de entrega en Mexico y Canada.",
     "rights": "Todos los derechos reservados."
+  },
+  "portfolio": {
+    "title": "Nuestra Experiencia",
+    "subtitle": "Entrega comprobada en industrias de mision critica. Aportamos experiencia profunda y resultados medibles en cada compromiso.",
+    "filters": {
+      "all": "Todos",
+      "healthcare": "Salud",
+      "telecom": "Telecom",
+      "government": "Gobierno",
+      "bfsi": "Servicios Financieros"
+    },
+    "projects": {
+      "healthcare-modernization": {
+        "title": "Modernizacion de Sistemas Clinicos",
+        "description": "Modernizacion integral de sistemas clinicos legacy, habilitando interoperabilidad fluida y mejores flujos de trabajo en atencion al paciente.",
+        "metrics": ["40% reduccion en tiempo de inactividad", "Arquitectura compatible con HIPAA", "99.9% de disponibilidad", "Integracion de 15+ sistemas legacy"],
+        "solution": "Modernizacion integral de plataforma con arquitectura cloud-native e integracion de datos en tiempo real."
+      },
+      "healthcare-interoperability": {
+        "title": "Interoperabilidad de Datos de Salud",
+        "description": "Construccion de plataforma unificada de datos para intercambio seguro de informacion de pacientes entre multiples proveedores.",
+        "metrics": ["50+ integraciones de proveedores", "Sincronizacion en tiempo real", "Compatible con HL7 FHIR", "Reduccion de latencia de datos en 80%"],
+        "solution": "Arquitectura API-first con robustos marcos de seguridad y cumplimiento."
+      },
+      "telecom-integration": {
+        "title": "Integracion de Plataforma OSS/BSS",
+        "description": "Unificacion de sistemas operativos y de soporte de negocio dispares para habilitar entrega de servicios y experiencia de cliente sin fricciones.",
+        "metrics": ["30% mas rapido en activacion de servicios", "Vista unificada del cliente", "Sincronizacion de facturacion en tiempo real", "Cero fuga de ingresos"],
+        "solution": "Capa de integracion basada en microservicios con arquitectura orientada a eventos."
+      },
+      "telecom-bss": {
+        "title": "Transformacion BSS de Nueva Generacion",
+        "description": "Transformacion completa de sistemas de facturacion y gestion de ingresos para un importante proveedor de telecomunicaciones.",
+        "metrics": ["$2M+ en ahorros anuales", "99.99% precision en facturacion", "Seguimiento de uso en tiempo real", "50% mas rapido al mercado"],
+        "solution": "Plataforma BSS cloud-native con aseguramiento de ingresos impulsado por IA."
+      },
+      "gov-digital-transformation": {
+        "title": "Modernizacion de Agencia Federal",
+        "description": "Lideramos iniciativa de transformacion digital para modernizar sistemas legacy y mejorar la entrega de servicios ciudadanos.",
+        "metrics": ["60% reduccion de costos", "Compatible con FedRAMP", "Disponibilidad 24/7", "Procesamiento 10x mas rapido"],
+        "solution": "Migracion segura a la nube con arquitectura de seguridad zero-trust."
+      },
+      "gov-citizen-services": {
+        "title": "Portal de Servicios Ciudadanos",
+        "description": "Desarrollo de plataforma digital unificada para engagement ciudadano y entrega de servicios gubernamentales.",
+        "metrics": ["1M+ usuarios activos", "90% tasa de satisfaccion", "Diseno mobile-first", "Accesible (WCAG 2.1)"],
+        "solution": "Plataforma web moderna con soporte multicanal y accesibilidad robusta."
+      },
+      "bfsi-core-banking": {
+        "title": "Modernizacion de Core Bancario",
+        "description": "Modernizacion de infraestructura de core bancario para soportar operaciones digital-first y mejor experiencia de cliente.",
+        "metrics": ["Transacciones sub-segundo", "99.999% disponibilidad", "Deteccion de fraude en tiempo real", "Compatible con PCI-DSS"],
+        "solution": "Arquitectura orientada a eventos con capacidades de procesamiento en tiempo real."
+      },
+      "bfsi-insurance-platform": {
+        "title": "Transformacion de Plataforma de Seguros",
+        "description": "Transformacion digital integral de operaciones de seguros, desde suscripcion hasta procesamiento de reclamos.",
+        "metrics": ["70% mas rapido en reclamos", "Suscripcion impulsada por IA", "Experiencia digital-first", "40% reduccion OpEx"],
+        "solution": "Plataforma cloud-native con automatizacion inteligente y analitica."
+      }
+    },
+    "cta": {
+      "title": "Listo para Transformar sus Operaciones?",
+      "description": "Hablemos de como Pi-North puede ayudar a modernizar sus sistemas de mision critica con ejecucion segura, escalable y orientada a entrega.",
+      "button": "Iniciar una Conversacion"
+    }
+  },
+  "portfolioHighlights": {
+    "title": "Experiencia Comprobada en Industria",
+    "subtitle": "Entregando resultados medibles en industrias reguladas y de mision critica.",
+    "viewAll": "Ver todos los casos de estudio",
+    "highlights": {
+      "healthcare": {
+        "summary": "Modernizacion de sistemas clinicos y soluciones de interoperabilidad de datos de salud."
+      },
+      "telecom": {
+        "summary": "Transformacion OSS/BSS y plataformas de entrega de servicios de nueva generacion."
+      },
+      "government": {
+        "summary": "Transformacion digital segura y modernizacion de servicios ciudadanos."
+      },
+      "bfsi": {
+        "summary": "Modernizacion de core bancario y transformacion de plataformas de seguros."
+      }
+    }
   }
 }
