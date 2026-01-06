@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://pi-north.com/sitemap.xml
+
+# Disallow admin or private paths (add as needed)
+# Disallow: /api/
+# Disallow: /admin/

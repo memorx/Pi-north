@@ -18,7 +18,13 @@
     "supporting": "Especializados en Salud, Telecomunicaciones, Gobierno y Servicios Financieros en Norteamérica.",
     "cta": "Hablemos",
     "ctaSecondary": "Ver Servicios",
-    "trusted": "Confían en nosotros líderes en:"
+    "trusted": "Confían en nosotros líderes en:",
+    "industries": {
+      "healthcare": "Salud",
+      "telecom": "Telecomunicaciones",
+      "government": "Gobierno",
+      "financialServices": "Servicios Financieros"
+    }
   },
   "whatWeDo": {
     "title": "Lo Que Hacemos",
@@ -155,6 +161,8 @@
     "contactUs": "Contáctanos",
     "problemsTitle": "Desafíos del Sector",
     "outcomesTitle": "Resultados que Necesitas",
+    "ctaTitle": "¿Listo para Transformar tus Operaciones?",
+    "ctaDescription": "Platiquemos sobre cómo Pi-North puede ayudarte a modernizar tus sistemas.",
     "healthcare": {
       "title": "Salud y Tecnología Médica",
       "shortDescription": "Modernización segura de TI en salud, integración de sistemas y transformación digital.",
@@ -218,7 +226,14 @@
       "email": "Correo electrónico",
       "company": "Empresa",
       "message": "Mensaje",
-      "submit": "Enviar Mensaje"
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por contactarnos. Te responderemos en las próximas 24 horas.",
+      "errorName": "Por favor ingresa tu nombre",
+      "errorEmail": "Por favor ingresa un correo válido",
+      "errorMessage": "El mensaje debe tener al menos 10 caracteres",
+      "errorServer": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente."
     }
   },
   "footer": {
@@ -307,5 +322,17 @@
         "summary": "Portal de servicios ciudadanos y sistemas de retroalimentación."
       }
     }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que buscas no existe o ha sido movida.",
+    "homeButton": "Ir al Inicio",
+    "backButton": "Regresar"
+  },
+  "error": {
+    "title": "Algo Salió Mal",
+    "description": "Ocurrió un error inesperado. Por favor intenta de nuevo o contacta a soporte si el problema persiste.",
+    "retryButton": "Intentar de Nuevo",
+    "homeButton": "Ir al Inicio"
   }
 }

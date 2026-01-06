@@ -146,10 +146,10 @@ export default function IndustryPage({ params }: { params: Promise<{ id: string 
             viewport={{ once: true }}
           >
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Ready to Transform Your {t(`${id}.title`)} Operations?
+              {t("ctaTitle")}
             </h2>
             <p className="text-muted-foreground mb-8">
-              Let's discuss how Pi-North can help modernize your systems.
+              {t("ctaDescription")}
             </p>
             <Link
               href={`/${locale}/contact`}

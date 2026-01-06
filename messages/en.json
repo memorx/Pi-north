@@ -18,7 +18,13 @@
     "supporting": "Focused on Healthcare, Telecommunications, Government, and Financial Services across North America.",
     "cta": "Talk to Our Team",
     "ctaSecondary": "Explore Services",
-    "trusted": "Trusted by leading organizations in:"
+    "trusted": "Trusted by leading organizations in:",
+    "industries": {
+      "healthcare": "Healthcare",
+      "telecom": "Telecommunications",
+      "government": "Government",
+      "financialServices": "Financial Services"
+    }
   },
   "whatWeDo": {
     "title": "What We Do",
@@ -155,6 +161,8 @@
     "contactUs": "Contact Us",
     "problemsTitle": "Industry Problems",
     "outcomesTitle": "Outcomes Leaders Need",
+    "ctaTitle": "Ready to Transform Your Operations?",
+    "ctaDescription": "Let's discuss how Pi-North can help modernize your systems.",
     "healthcare": {
       "title": "Healthcare IT & Digital Health",
       "shortDescription": "Secure healthcare IT modernization, systems integration, and digital transformation.",
@@ -218,7 +226,14 @@
       "email": "Email",
       "company": "Company",
       "message": "Message",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "errorName": "Please enter your name",
+      "errorEmail": "Please enter a valid email address",
+      "errorMessage": "Message must be at least 10 characters",
+      "errorServer": "Something went wrong. Please try again or email us directly."
     }
   },
   "footer": {
@@ -307,5 +322,17 @@
         "summary": "Municipal citizen services portal and feedback systems."
       }
     }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "homeButton": "Go to Home",
+    "backButton": "Go Back"
+  },
+  "error": {
+    "title": "Something Went Wrong",
+    "description": "An unexpected error occurred. Please try again or contact support if the problem persists.",
+    "retryButton": "Try Again",
+    "homeButton": "Go to Home"
   }
 }

@@ -9,36 +9,50 @@ import Link from "next/link";
 function NorthStar() {
   return (
     <motion.svg
-      viewBox="0 0 100 100"
-      className="absolute w-32 h-32 md:w-48 md:h-48 text-gold/20"
+      viewBox="0 0 100 120"
+      className="absolute w-32 h-40 md:w-48 md:h-60 text-gold/20"
       initial={{ opacity: 0, rotate: -45 }}
       animate={{ opacity: 1, rotate: 0 }}
       transition={{ duration: 1.5, delay: 0.5 }}
     >
+      {/* North indicator "N" */}
+      <motion.text
+        x="50"
+        y="15"
+        textAnchor="middle"
+        fill="currentColor"
+        className="text-gold/40 font-bold"
+        style={{ fontSize: "14px", fontFamily: "inherit" }}
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 1.7 }}
+      >
+        N
+      </motion.text>
       {/* Main star points */}
       <motion.path
-        d="M50 0 L52 45 L50 50 L48 45 Z"
+        d="M50 20 L52 65 L50 70 L48 65 Z"
         fill="currentColor"
         initial={{ pathLength: 0 }}
         animate={{ pathLength: 1 }}
         transition={{ duration: 1, delay: 0.8 }}
       />
       <motion.path
-        d="M50 100 L52 55 L50 50 L48 55 Z"
+        d="M50 120 L52 75 L50 70 L48 75 Z"
         fill="currentColor"
         initial={{ pathLength: 0 }}
         animate={{ pathLength: 1 }}
         transition={{ duration: 1, delay: 0.9 }}
       />
       <motion.path
-        d="M0 50 L45 52 L50 50 L45 48 Z"
+        d="M0 70 L45 72 L50 70 L45 68 Z"
         fill="currentColor"
         initial={{ pathLength: 0 }}
         animate={{ pathLength: 1 }}
         transition={{ duration: 1, delay: 1.0 }}
       />
       <motion.path
-        d="M100 50 L55 52 L50 50 L55 48 Z"
+        d="M100 70 L55 72 L50 70 L55 68 Z"
         fill="currentColor"
         initial={{ pathLength: 0 }}
         animate={{ pathLength: 1 }}
@@ -46,7 +60,7 @@ function NorthStar() {
       />
       {/* Diagonal points */}
       <motion.path
-        d="M14.6 14.6 L46 46 L50 50 L46 50 Z"
+        d="M14.6 34.6 L46 66 L50 70 L46 70 Z"
         fill="currentColor"
         opacity={0.5}
         initial={{ pathLength: 0 }}
@@ -54,7 +68,7 @@ function NorthStar() {
         transition={{ duration: 0.8, delay: 1.2 }}
       />
       <motion.path
-        d="M85.4 14.6 L54 46 L50 50 L54 50 Z"
+        d="M85.4 34.6 L54 66 L50 70 L54 70 Z"
         fill="currentColor"
         opacity={0.5}
         initial={{ pathLength: 0 }}
@@ -62,7 +76,7 @@ function NorthStar() {
         transition={{ duration: 0.8, delay: 1.3 }}
       />
       <motion.path
-        d="M14.6 85.4 L46 54 L50 50 L46 50 Z"
+        d="M14.6 105.4 L46 74 L50 70 L46 70 Z"
         fill="currentColor"
         opacity={0.5}
         initial={{ pathLength: 0 }}
@@ -70,7 +84,7 @@ function NorthStar() {
         transition={{ duration: 0.8, delay: 1.4 }}
       />
       <motion.path
-        d="M85.4 85.4 L54 54 L50 50 L54 50 Z"
+        d="M85.4 105.4 L54 74 L50 70 L54 70 Z"
         fill="currentColor"
         opacity={0.5}
         initial={{ pathLength: 0 }}
@@ -80,7 +94,7 @@ function NorthStar() {
       {/* Center circle */}
       <motion.circle
         cx="50"
-        cy="50"
+        cy="70"
         r="3"
         fill="currentColor"
         initial={{ scale: 0 }}
@@ -334,13 +348,13 @@ export default function HeroSection() {
         >
           <p className="text-sm text-muted-foreground mb-4">{t("trusted")}</p>
           <div className="flex flex-wrap justify-center gap-8 text-silver/60">
-            <span className="text-sm font-medium">Healthcare</span>
+            <span className="text-sm font-medium">{t("industries.healthcare")}</span>
             <span className="text-gold/30">|</span>
-            <span className="text-sm font-medium">Telecommunications</span>
+            <span className="text-sm font-medium">{t("industries.telecom")}</span>
             <span className="text-gold/30">|</span>
-            <span className="text-sm font-medium">Government</span>
+            <span className="text-sm font-medium">{t("industries.government")}</span>
             <span className="text-gold/30">|</span>
-            <span className="text-sm font-medium">Financial Services</span>
+            <span className="text-sm font-medium">{t("industries.financialServices")}</span>
           </div>
         </motion.div>
       </motion.div>
