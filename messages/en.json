@@ -218,10 +218,17 @@
     "closing": "Pi-North combines the rigor of enterprise consulting with the execution strength of engineering-led delivery—without the overhead or fragmentation."
   },
   "contact": {
-    "title": "Engage with Pi-North",
-    "description": "Discuss how Pi-North can help modernize your mission-critical systems with secure, scalable, and delivery-led execution.",
-    "presence": "Presence across North America with delivery teams in Mexico and Canada.",
+    "title": "Connect with Pi-North",
+    "subtitle": "Ready to transform your operations? Let's talk about how we can help.",
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "locationValue": "North America presence with delivery teams in Mexico and Canada."
+    },
     "form": {
+      "title": "Send us a Message",
       "name": "Name",
       "email": "Email",
       "company": "Company",
@@ -234,6 +241,11 @@
       "errorEmail": "Please enter a valid email address",
       "errorMessage": "Message must be at least 10 characters",
       "errorServer": "Something went wrong. Please try again or email us directly."
+    },
+    "calendar": {
+      "title": "Schedule a Consultation",
+      "description": "Book 30 minutes with our team to discuss your transformation needs.",
+      "comingSoon": "Calendar coming soon"
     }
   },
   "footer": {

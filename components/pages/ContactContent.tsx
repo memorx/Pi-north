@@ -2,7 +2,16 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { Send, MapPin, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
+import {
+  Send,
+  Mail,
+  Phone,
+  MapPin,
+  Calendar,
+  CheckCircle,
+  AlertCircle,
+  Loader2
+} from "lucide-react";
 import { useActionState } from "react";
 import { submitContactForm, ContactFormState } from "@/app/actions/contact";
 
@@ -12,49 +21,128 @@ const initialState: ContactFormState = {
   message: null,
 };
 
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5 },
+  },
+};
+
 export default function ContactContent() {
   const t = useTranslations("contact");
   const [state, formAction, isPending] = useActionState(submitContactForm, initialState);
 
   return (
     <div className="pt-16">
-      <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
-            {/* Info */}
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-            >
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 heading-gold">
-                {t("title")}
-              </h1>
+      {/* Hero Section */}
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto text-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 heading-gold"
+          >
+            {t("title")}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
+          >
+            {t("subtitle")}
+          </motion.p>
+        </div>
+      </section>
 
-              <p className="text-lg text-muted-foreground mb-8">
-                {t("description")}
-              </p>
+      {/* Contact Info + Form Section */}
+      <section className="py-12 px-4">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+          className="max-w-6xl mx-auto"
+        >
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Contact Information */}
+            <motion.div variants={itemVariants}>
+              <h2 className="text-2xl font-bold text-foreground mb-8">
+                {t("info.title")}
+              </h2>
 
-              <div className="flex items-start gap-3 p-4 card-corporate">
-                <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" />
-                <p className="text-muted-foreground">
-                  {t("presence")}
-                </p>
+              <div className="space-y-6">
+                {/* Email */}
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-gold" />
+                  </div>
+                  <div>
+                    <p className="text-muted-foreground text-sm">{t("info.email")}</p>
+                    <a
+                      href="mailto:info@pinorth.com"
+                      className="text-foreground hover:text-gold transition-colors font-medium"
+                    >
+                      info@pinorth.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* Phone */}
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-gold" />
+                  </div>
+                  <div>
+                    <p className="text-muted-foreground text-sm">{t("info.phone")}</p>
+                    <a
+                      href="tel:+15876648730"
+                      className="text-foreground hover:text-gold transition-colors font-medium"
+                    >
+                      +1 (587) 664-8730
+                    </a>
+                  </div>
+                </div>
+
+                {/* Location */}
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-gold" />
+                  </div>
+                  <div>
+                    <p className="text-muted-foreground text-sm">{t("info.location")}</p>
+                    <p className="text-foreground font-medium">
+                      {t("info.locationValue")}
+                    </p>
+                  </div>
+                </div>
               </div>
             </motion.div>
 
-            {/* Form */}
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.1 }}
-            >
+            {/* Contact Form */}
+            <motion.div variants={itemVariants}>
+              <h2 className="text-2xl font-bold text-foreground mb-8">
+                {t("form.title")}
+              </h2>
+
               {state.success ? (
                 <div className="p-8 card-corporate text-center">
                   <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-                  <h2 className="text-2xl font-bold text-foreground mb-2">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">
                     {t("form.successTitle")}
-                  </h2>
+                  </h3>
                   <p className="text-muted-foreground">
                     {t("form.successMessage")}
                   </p>
@@ -169,7 +257,60 @@ export default function ContactContent() {
               )}
             </motion.div>
           </div>
-        </div>
+        </motion.div>
+      </section>
+
+      {/* Calendar Section */}
+      <section className="py-16 px-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="max-w-4xl mx-auto"
+        >
+          <div className="card-corporate p-8 md:p-12 text-center">
+            <div className="w-16 h-16 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-6">
+              <Calendar className="w-8 h-8 text-gold" />
+            </div>
+
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              {t("calendar.title")}
+            </h2>
+
+            <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
+              {t("calendar.description")}
+            </p>
+
+            {/* Calendly Placeholder */}
+            <div className="bg-secondary/50 rounded-xl p-12 border border-dashed border-border">
+              <Calendar className="w-12 h-12 text-muted-foreground mx-auto mb-4 opacity-50" />
+              <p className="text-muted-foreground">
+                {t("calendar.comingSoon")}
+              </p>
+            </div>
+
+            {/*
+              When Calendly is ready, replace the placeholder above with:
+
+              <iframe
+                src="https://calendly.com/pinorth?hide_landing_page_details=1&hide_gdpr_banner=1"
+                width="100%"
+                height="650"
+                frameBorder="0"
+                title="Schedule a meeting"
+                className="rounded-xl"
+              />
+
+              Or use react-calendly:
+              import { InlineWidget } from "react-calendly";
+              <InlineWidget
+                url="https://calendly.com/pinorth"
+                styles={{ height: '650px', minWidth: '320px' }}
+              />
+            */}
+          </div>
+        </motion.div>
       </section>
     </div>
   );

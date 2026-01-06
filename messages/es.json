@@ -219,9 +219,16 @@
   },
   "contact": {
     "title": "Conecta con Pi-North",
-    "description": "Platiquemos sobre cómo podemos ayudarte a modernizar tus sistemas críticos con ejecución segura, escalable y orientada a resultados.",
-    "presence": "Presencia en Norteamérica con equipos en México y Canadá.",
+    "subtitle": "¿Listo para transformar tus operaciones? Platiquemos sobre cómo podemos ayudarte.",
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "locationValue": "Presencia en Norteamérica con equipos en México y Canadá."
+    },
     "form": {
+      "title": "Envíanos un Mensaje",
       "name": "Nombre",
       "email": "Correo electrónico",
       "company": "Empresa",
@@ -234,6 +241,11 @@
       "errorEmail": "Por favor ingresa un correo válido",
       "errorMessage": "El mensaje debe tener al menos 10 caracteres",
       "errorServer": "Algo salió mal. Por favor intenta de nuevo o escríbenos directamente."
+    },
+    "calendar": {
+      "title": "Agenda una Consulta",
+      "description": "Reserva 30 minutos con nuestro equipo para discutir tus necesidades de transformación.",
+      "comingSoon": "Calendario próximamente"
     }
   },
   "footer": {
