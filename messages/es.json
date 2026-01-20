@@ -48,7 +48,7 @@
     "items": [
       "Resultados concretos, no solo presentaciones",
       "Equipos especializados por industria",
-      "Presencia en México y Canadá para cercanía",
+      "Presencia en Canadá y México para cercanía",
       "Automatización inteligente con supervisión humana",
       "Sistemas seguros y robustos desde el diseño"
     ]
@@ -267,7 +267,7 @@
       "email": "Correo",
       "phone": "Teléfono",
       "location": "Ubicación",
-      "locationValue": "Presencia en Norteamérica con equipos en México y Canadá."
+      "locationValue": "Presencia en Norteamérica con equipos en Canadá y México."
     },
     "form": {
       "title": "Envíanos un Mensaje",
@@ -298,7 +298,7 @@
     "industries": "Industrias",
     "contact": "Contacto",
     "contactTitle": "Contacto",
-    "presence": "Presencia en Norteamérica con equipos en México y Canadá.",
+    "presence": "Presencia en Norteamérica con equipos en Canadá y México.",
     "rights": "Todos los derechos reservados."
   },
   "portfolio": {

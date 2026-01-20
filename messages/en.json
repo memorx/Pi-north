@@ -38,7 +38,7 @@
         "Systems integration & platform modernization",
         "Cloud & infrastructure modernization",
         "Digital transformation and technology strategy",
-        "Intelligence & process automation with human oversight",
+        "Intelligence & process automation with human supervision",
         "Applied AI & Intelligent solutions"
       ]
     }
@@ -48,7 +48,7 @@
     "items": [
       "Delivery-led, not slide-led",
       "Industry-specific engineering teams",
-      "Nearshore-first execution across Mexico and Canada",
+      "Nearshore-first execution across Canada and Mexico",
       "Automation with human governance (Jidoka)",
       "Secure, compliant, and resilient architectures by design"
     ]
@@ -165,7 +165,7 @@
     },
     "automation": {
       "title": "Intelligent Automation & Jidoka Enablement",
-      "description": "We implement intelligent automation that improves efficiency while maintaining human oversight, auditability, and operational control.",
+      "description": "We implement intelligent automation that improves efficiency while maintaining human supervision, auditability, and operational control.",
       "capabilities": [
         "Process automation and workflow orchestration",
         "Human-in-the-loop automation models",
@@ -185,7 +185,7 @@
     },
     "ai": {
       "title": "Artificial Intelligence & Intelligent Automation",
-      "description": "We implement AI systems that automate where appropriate while preserving human oversight—ensuring transparency, compliance, and trust in mission-critical environments.",
+      "description": "We implement AI systems that automate where appropriate while preserving human supervision—ensuring transparency, compliance, and trust in mission-critical environments.",
       "capabilities": [
         "AI strategy and use-case identification tied to measurable outcomes",
         "Machine learning model development and integration",
@@ -267,7 +267,7 @@
       "email": "Email",
       "phone": "Phone",
       "location": "Location",
-      "locationValue": "North America presence with delivery teams in Mexico and Canada."
+      "locationValue": "North America presence with delivery teams in Canada and Mexico."
     },
     "form": {
       "title": "Send us a Message",
@@ -298,7 +298,7 @@
     "industries": "Industries",
     "contact": "Contact",
     "contactTitle": "Contact",
-    "presence": "Presence across North America with delivery teams in Mexico and Canada.",
+    "presence": "Presence across North America with delivery teams in Canada and Mexico.",
     "rights": "All rights reserved."
   },
   "portfolio": {

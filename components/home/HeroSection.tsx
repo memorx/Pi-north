@@ -246,7 +246,7 @@ export default function HeroSection() {
           src="/assets/hero-waves.png"
           alt=""
           fill
-          className="object-cover"
+          className="object-cover opacity-40"
           priority
         />
         <div className="absolute inset-0 bg-background/80" />
