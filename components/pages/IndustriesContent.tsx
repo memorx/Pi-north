@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { useLocale } from "next-intl";
 import { ArrowRight, HeartPulse, Radio, Building, Landmark } from "lucide-react";
 
@@ -42,6 +43,7 @@ export default function IndustriesContent() {
           <div className="grid md:grid-cols-2 gap-6">
             {industries.map((industry, index) => {
               const Icon = industry.icon;
+              const isHealthcare = industry.id === "healthcare";
               return (
                 <motion.div
                   key={industry.id}
@@ -52,9 +54,21 @@ export default function IndustriesContent() {
                 >
                   <Link
                     href={`/${locale}/industries/${industry.id}`}
-                    className="block p-6 card-corporate h-full group"
+                    className="block p-6 card-corporate h-full group relative overflow-hidden"
                   >
-                    <div className="flex items-start gap-4">
+                    {/* Healthcare DNA Image */}
+                    {isHealthcare && (
+                      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[200px] h-[200px] opacity-20 pointer-events-none hidden md:block">
+                        <Image
+                          src="/assets/healthcare-dna.png"
+                          alt=""
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+
+                    <div className="flex items-start gap-4 relative z-10">
                       <div className="p-3 rounded bg-gold/10 text-gold">
                         <Icon className="w-6 h-6" />
                       </div>

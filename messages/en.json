@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Delivery-Led Digital Engineering & Transformation | Pi-North",
-    "description": "Pi-North is a delivery-led transformation partner providing digital engineering, systems integration, and consulting services for mission-critical enterprises across North America."
+    "title": "Delivery-Led Digital Engineering & Transformation | πNORTH",
+    "description": "πNORTH is a delivery-led transformation partner providing digital engineering, systems integration, and consulting services for mission-critical enterprises across North America."
   },
   "nav": {
     "home": "Home",
@@ -14,8 +14,10 @@
   "hero": {
     "badge": "Enterprise Digital Transformation",
     "title": "Delivery-Led Digital Engineering & Transformation",
-    "subtitle": "Pi-North is a delivery-led transformation partner combining deep industry engineering, systems integration, and consulting to modernize mission-critical enterprises.",
+    "subtitle": "πNORTH is a delivery-led transformation partner combining deep industry engineering, systems integration, and consulting to modernize mission-critical enterprises.",
     "supporting": "Focused on Healthcare, Telecommunications, Government, and Financial Services across North America.",
+    "tagline": "We turn challenges into opportunities...",
+    "taglineSubtext": "Through people, leadership, and technology.",
     "cta": "Talk to Our Team",
     "ctaSecondary": "Explore Services",
     "trusted": "Trusted by leading organizations in:",
@@ -28,15 +30,16 @@
   },
   "whatWeDo": {
     "title": "What We Do",
-    "description": "Pi-North helps organizations modernize complex, mission-critical environments through integrated engineering, platform modernization, and execution-oriented consulting. We specialize in secure, compliant, and resilient systems that scale across regulated and infrastructure-heavy industries.",
+    "description": "πNORTH helps organizations modernize complex, mission-critical environments through integrated engineering, platform modernization, and execution-oriented consulting. We specialize in secure, compliant, and resilient systems that scale across regulated and infrastructure-heavy industries.",
     "capabilities": {
       "title": "Core Capabilities",
       "items": [
         "Digital engineering & custom software development",
         "Systems integration & platform modernization",
         "Cloud & infrastructure modernization",
-        "Digital transformation consulting",
-        "Intelligent automation with human oversight"
+        "Digital transformation and technology strategy",
+        "Intelligence & process automation with human oversight",
+        "Applied AI & Intelligent solutions"
       ]
     }
   },
@@ -51,11 +54,11 @@
     ]
   },
   "about": {
-    "title": "About Pi-North",
-    "metaDescription": "Learn how Pi-North delivers enterprise-grade digital engineering, systems integration, and transformation services for regulated industries.",
+    "title": "About πNORTH",
+    "metaDescription": "Learn how πNORTH delivers enterprise-grade digital engineering, systems integration, and transformation services for regulated industries.",
     "whoWeAre": {
       "title": "Who We Are",
-      "description": "Pi-North is a digital engineering and transformation firm built to support enterprises operating in complex, regulated, and infrastructure-heavy environments."
+      "description": "πNORTH is a digital engineering and transformation firm built to support enterprises operating in complex, regulated, and infrastructure-heavy environments."
     },
     "mission": {
       "title": "Our Mission",
@@ -65,7 +68,7 @@
     "vision": {
       "title": "Our Vision",
       "description": "To become the leading delivery-led transformation partner for mission-critical enterprises in North America - trusted for engineering excellence, resilient execution, and intelligent automation that keeps people at the center.",
-      "extended": "We believe scale and responsibility must grow together. As Pi-North expands, we are committed to reinvesting in the communities where we operate - developing local talent, strengthening technology ecosystems, and creating long-term value beyond individual engagements."
+      "extended": "We believe scale and responsibility must grow together. As πNORTH expands, we are committed to reinvesting in the communities where we operate - developing local talent, strengthening technology ecosystems, and creating long-term value beyond individual engagements."
     },
     "values": {
       "title": "Our Values",
@@ -75,11 +78,50 @@
         "Industry focus",
         "Human-centered automation"
       ]
+    },
+    "experts": {
+      "title": "Our Experts",
+      "description": "At πNORTH, our team brings together deep engineering expertise, regulatory awareness, and hands-on execution experience. Our experience and flexibility allow us to work alongside organizations ranging from startups, small and medium-sized businesses to large enterprises operating in complex, regulated, or mission-critical environments, helping them modernize with confidence through secure, resilient, and scalable digital solutions.",
+      "extended": "Our experts combine strong technical foundations with a deep understanding of operational risk, compliance, and long-term sustainability. At πNORTH, we design and implement technology that delivers measurable outcomes while keeping people at the center of every decision."
+    },
+    "leadership": {
+      "title": "Leadership",
+      "executive": {
+        "title": "Executive & Functional Leadership",
+        "roles": [
+          "COO / Director, Growth & Strategic Partnerships",
+          "CGO / Director, Business Development & Strategic Bids",
+          "CHRO"
+        ]
+      },
+      "practice": {
+        "title": "Practice & Technology Leadership",
+        "roles": [
+          "Director, Health & Data Sciences",
+          "Director, Business Intelligence & Analytics",
+          "Director, Technology & AI"
+        ]
+      },
+      "delivery": {
+        "title": "Client & Delivery Leadership",
+        "roles": [
+          "Client Partner – Strategic Accounts Canada East",
+          "Client Partner – Strategic Accounts Canada West",
+          "Head of Program Delivery / Sr Program Manager"
+        ]
+      }
+    },
+    "team": {
+      "arturo": {
+        "name": "Dr. Arturo López Pineda",
+        "role": "Director — Health & Data Sciences",
+        "shortBio": "Dr. Arturo López Pineda leads πNORTH's Health & Data Sciences practice, specializing in artificial intelligence, advanced analytics, and regulated healthcare environments. He brings world-class expertise in clinical decision support, secure data platforms, and responsible AI implementation. He is also the Founder and CEO of Amphora Health, a company member of the πNORTH Venture & Innovation Network, focused on delivering compliant, high-impact data and AI solutions for healthcare organizations. Dr. López Pineda completed postdoctoral training at Stanford University and holds a PhD and MS in Biomedical Informatics from the University of Pittsburgh. A Fulbright–García Robles alumnus and AMIA-certified health informatician, he currently serves as an adjunct professor at UNAM."
+      }
     }
   },
   "services": {
     "title": "Our Services",
-    "metaDescription": "Explore Pi-North's enterprise IT services including digital engineering, systems integration, cloud modernization, and intelligent automation.",
+    "metaDescription": "Explore πNORTH's enterprise IT services including digital engineering, systems integration, cloud modernization, and intelligent automation.",
     "description": "Enterprise IT Services & Consulting",
     "engineering": {
       "title": "Digital Engineering & Custom Software Development",
@@ -157,12 +199,12 @@
     "description": "We deliver specialized solutions across key industries, combining deep sector knowledge with cutting-edge technology.",
     "learnMore": "Learn more",
     "backToIndustries": "Back to Industries",
-    "keyCapabilities": "The Pi-North Solution",
+    "keyCapabilities": "The πNORTH Solution",
     "contactUs": "Contact Us",
     "problemsTitle": "Industry Problems",
     "outcomesTitle": "Outcomes Leaders Need",
     "ctaTitle": "Ready to Transform Your Operations?",
-    "ctaDescription": "Let's discuss how Pi-North can help modernize your systems.",
+    "ctaDescription": "Let's discuss how πNORTH can help modernize your systems.",
     "healthcare": {
       "title": "Healthcare IT & Digital Health",
       "shortDescription": "Secure healthcare IT modernization, systems integration, and digital transformation.",
@@ -173,7 +215,7 @@
         "Reliable, compliant systems ready for analytics and AI",
         "Resilient infrastructure that supports patient safety"
       ],
-      "solution": "Pi-North applies healthcare-specific engineering, enterprise integration, and compliance-first delivery to modernize clinical, administrative, and data platforms while ensuring security, privacy, and operational resilience."
+      "solution": "πNORTH applies healthcare-specific engineering, enterprise integration, and compliance-first delivery to modernize clinical, administrative, and data platforms while ensuring security, privacy, and operational resilience."
     },
     "telecom": {
       "title": "Telecommunications",
@@ -185,7 +227,7 @@
         "Highly available and resilient platforms",
         "Secure, scalable infrastructure"
       ],
-      "solution": "Pi-North delivers disciplined engineering, robust systems integration, and resilient platform modernization to support high-availability telecom operations and secure digital service delivery."
+      "solution": "πNORTH delivers disciplined engineering, robust systems integration, and resilient platform modernization to support high-availability telecom operations and secure digital service delivery."
     },
     "government": {
       "title": "Government & Public Sector",
@@ -197,7 +239,7 @@
         "Integrated data for transparency and decision-making",
         "Resilient systems supporting continuity of operations"
       ],
-      "solution": "Pi-North modernizes government platforms through secure cloud architectures, enterprise integration, and execution-focused delivery aligned to public-sector governance and compliance requirements."
+      "solution": "πNORTH modernizes government platforms through secure cloud architectures, enterprise integration, and execution-focused delivery aligned to public-sector governance and compliance requirements."
     },
     "bfsi": {
       "title": "Banking, Financial Services & Insurance",
@@ -209,16 +251,16 @@
         "Integrated data for analytics and reporting",
         "Resilient systems supporting continuous operations"
       ],
-      "solution": "Pi-North provides compliance-first engineering, secure integration, and transformation delivery that modernizes BFSI platforms while strengthening governance, resilience, and operational control."
+      "solution": "πNORTH provides compliance-first engineering, secure integration, and transformation delivery that modernizes BFSI platforms while strengthening governance, resilience, and operational control."
     }
   },
   "whyPinorth": {
-    "title": "Why Enterprises Choose Pi-North",
+    "title": "Why Enterprises Choose πNORTH",
     "subtitle": "A delivery-led alternative to traditional consulting and generic IT services.",
-    "closing": "Pi-North combines the rigor of enterprise consulting with the execution strength of engineering-led delivery—without the overhead or fragmentation."
+    "closing": "πNORTH combines the rigor of enterprise consulting with the execution strength of engineering-led delivery—without the overhead or fragmentation."
   },
   "contact": {
-    "title": "Connect with Pi-North",
+    "title": "Connect with πNORTH",
     "subtitle": "Ready to transform your operations? Let's talk about how we can help.",
     "info": {
       "title": "Contact Information",
@@ -308,7 +350,7 @@
     },
     "cta": {
       "title": "Ready to Transform Your Operations?",
-      "description": "Let's discuss how Pi-North can help modernize your mission-critical systems with secure, scalable, and delivery-led execution.",
+      "description": "Let's discuss how πNORTH can help modernize your mission-critical systems with secure, scalable, and delivery-led execution.",
       "button": "Start a Conversation"
     }
   },

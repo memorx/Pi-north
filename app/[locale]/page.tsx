@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight, Check, HeartPulse, Radio, Building, Landmark } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import HeroSection from "@/components/home/HeroSection";
 import PortfolioHighlights from "@/components/home/PortfolioHighlights";
 
@@ -27,8 +28,18 @@ export default function HomePage() {
       <HeroSection />
 
       {/* What We Do Section */}
-      <section className="py-20 px-4 section-alt">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-20 px-4 section-alt relative overflow-hidden">
+        {/* Decorative Image */}
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[400px] h-[400px] opacity-20 pointer-events-none hidden lg:block">
+          <Image
+            src="/assets/cloud-integration.png"
+            alt=""
+            fill
+            className="object-contain"
+          />
+        </div>
+
+        <div className="max-w-6xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}

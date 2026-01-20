@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 // North Star decorative component
 function NorthStar() {
@@ -239,6 +240,18 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center px-4 pt-20 overflow-hidden">
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/assets/hero-waves.png"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-background/80" />
+      </div>
+
       {/* Background layers */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card" />
       <GridPattern />
@@ -316,10 +329,23 @@ export default function HeroSection() {
         {/* Supporting text */}
         <motion.p
           variants={itemVariants}
-          className="text-base text-muted-foreground mb-10 max-w-2xl mx-auto"
+          className="text-base text-muted-foreground mb-6 max-w-2xl mx-auto"
         >
           {t("supporting")}
         </motion.p>
+
+        {/* Inspirational Tagline */}
+        <motion.div
+          variants={itemVariants}
+          className="mb-8"
+        >
+          <p className="text-2xl md:text-3xl font-light text-gold italic mb-1">
+            {t("tagline")}
+          </p>
+          <p className="text-lg md:text-xl text-silver">
+            {t("taglineSubtext")}
+          </p>
+        </motion.div>
 
         {/* CTA Buttons */}
         <motion.div

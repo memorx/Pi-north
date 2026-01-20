@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {
   Code2,
   Layers,
@@ -57,6 +58,7 @@ export default function ServicesContent() {
           {services.map((service, index) => {
             const Icon = service.icon;
             const capabilities = t.raw(`${service.id}.capabilities`) as string[];
+            const isAI = service.id === "ai";
 
             return (
               <motion.div
@@ -65,9 +67,21 @@ export default function ServicesContent() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.3, delay: index * 0.05 }}
                 viewport={{ once: true }}
-                className="p-8 card-corporate"
+                className="p-8 card-corporate relative overflow-hidden"
               >
-                <div className="flex flex-col md:flex-row gap-6">
+                {/* Neural Network Image for AI section */}
+                {isAI && (
+                  <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[250px] h-[250px] opacity-15 pointer-events-none hidden md:block">
+                    <Image
+                      src="/assets/neural-network.png"
+                      alt=""
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
+                )}
+
+                <div className="flex flex-col md:flex-row gap-6 relative z-10">
                   <div className="flex-shrink-0">
                     <div className="p-4 rounded bg-gold/10 text-gold w-fit">
                       <Icon className="w-8 h-8" />

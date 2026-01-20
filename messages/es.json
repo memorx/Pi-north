@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ingeniería Digital y Transformación con Resultados | Pi-North",
-    "description": "Pi-North es tu socio en transformación digital. Combinamos ingeniería sólida, integración de sistemas y consultoría práctica para empresas que no pueden fallar."
+    "title": "Ingeniería Digital y Transformación con Resultados | πNORTH",
+    "description": "πNORTH es tu socio en transformación digital. Combinamos ingeniería sólida, integración de sistemas y consultoría práctica para empresas que no pueden fallar."
   },
   "nav": {
     "home": "Inicio",
@@ -16,6 +16,8 @@
     "title": "Ingeniería Digital y Transformación con Resultados",
     "subtitle": "Somos tu socio en transformación digital. Combinamos ingeniería de alto nivel con consultoría práctica para modernizar empresas que no pueden fallar.",
     "supporting": "Especializados en Salud, Telecomunicaciones, Gobierno y Servicios Financieros en Norteamérica.",
+    "tagline": "Convertimos desafíos en oportunidades...",
+    "taglineSubtext": "A través de personas, liderazgo y tecnología.",
     "cta": "Hablemos",
     "ctaSecondary": "Ver Servicios",
     "trusted": "Confían en nosotros líderes en:",
@@ -34,9 +36,10 @@
       "items": [
         "Ingeniería digital y desarrollo de software a la medida",
         "Integración de sistemas y modernización de plataformas",
-        "Migración a la nube y modernización de infraestructura",
-        "Consultoría en transformación digital",
-        "Automatización inteligente con supervisión humana"
+        "Modernización de infraestructura y nube",
+        "Transformación digital y estrategia tecnológica",
+        "Inteligencia y automatización de procesos con supervisión humana",
+        "IA Aplicada y soluciones inteligentes"
       ]
     }
   },
@@ -51,8 +54,8 @@
     ]
   },
   "about": {
-    "title": "Sobre Pi-North",
-    "metaDescription": "Conoce cómo Pi-North entrega ingeniería digital de clase empresarial, integración de sistemas y transformación para industrias reguladas.",
+    "title": "Sobre πNORTH",
+    "metaDescription": "Conoce cómo πNORTH entrega ingeniería digital de clase empresarial, integración de sistemas y transformación para industrias reguladas.",
     "whoWeAre": {
       "title": "Quiénes Somos",
       "description": "Somos una firma de ingeniería digital y transformación. Apoyamos a empresas que operan en entornos complejos, regulados y con infraestructura crítica."
@@ -65,7 +68,7 @@
     "vision": {
       "title": "Nuestra Visión",
       "description": "Ser el socio líder en transformación para empresas de misión crítica en Norteamérica. Reconocidos por nuestra excelencia en ingeniería, ejecución confiable y automatización que mantiene a las personas en el centro.",
-      "extended": "Creemos que el crecimiento y la responsabilidad van de la mano. A medida que Pi-North se expande, reinvertimos en las comunidades donde operamos: desarrollando talento local y fortaleciendo ecosistemas tecnológicos."
+      "extended": "Creemos que el crecimiento y la responsabilidad van de la mano. A medida que πNORTH se expande, reinvertimos en las comunidades donde operamos: desarrollando talento local y fortaleciendo ecosistemas tecnológicos."
     },
     "values": {
       "title": "Nuestros Valores",
@@ -75,11 +78,50 @@
         "Especialización por industria",
         "Automatización centrada en las personas"
       ]
+    },
+    "experts": {
+      "title": "Nuestros Expertos",
+      "description": "En πNORTH, nuestro equipo reúne profunda experiencia en ingeniería, conocimiento regulatorio y experiencia práctica en ejecución. Nuestra experiencia y flexibilidad nos permiten trabajar junto a organizaciones que van desde startups, pequeñas y medianas empresas hasta grandes corporativos que operan en entornos complejos, regulados o de misión crítica, ayudándoles a modernizarse con confianza a través de soluciones digitales seguras, resilientes y escalables.",
+      "extended": "Nuestros expertos combinan sólidas bases técnicas con un profundo entendimiento del riesgo operacional, cumplimiento y sostenibilidad a largo plazo. En πNORTH, diseñamos e implementamos tecnología que entrega resultados medibles manteniendo a las personas en el centro de cada decisión."
+    },
+    "leadership": {
+      "title": "Liderazgo",
+      "executive": {
+        "title": "Liderazgo Ejecutivo y Funcional",
+        "roles": [
+          "COO / Director de Crecimiento y Alianzas Estratégicas",
+          "CGO / Director de Desarrollo de Negocios y Licitaciones Estratégicas",
+          "CHRO"
+        ]
+      },
+      "practice": {
+        "title": "Liderazgo de Práctica y Tecnología",
+        "roles": [
+          "Director de Ciencias de la Salud y Datos",
+          "Director de Inteligencia de Negocios y Analítica",
+          "Director de Tecnología e IA"
+        ]
+      },
+      "delivery": {
+        "title": "Liderazgo de Clientes y Entrega",
+        "roles": [
+          "Client Partner – Cuentas Estratégicas Canadá Este",
+          "Client Partner – Cuentas Estratégicas Canadá Oeste",
+          "Director de Entrega de Programas / Sr Program Manager"
+        ]
+      }
+    },
+    "team": {
+      "arturo": {
+        "name": "Dr. Arturo López Pineda",
+        "role": "Director — Ciencias de la Salud y Datos",
+        "shortBio": "El Dr. Arturo López Pineda lidera la práctica de Ciencias de la Salud y Datos de πNORTH, especializándose en inteligencia artificial, analítica avanzada y entornos de salud regulados. Aporta experiencia de clase mundial en soporte a decisiones clínicas, plataformas de datos seguras e implementación responsable de IA. También es Fundador y CEO de Amphora Health, empresa miembro de la Red de Ventures e Innovación de πNORTH, enfocada en entregar soluciones de datos e IA de alto impacto y cumplimiento para organizaciones de salud. El Dr. López Pineda completó su formación postdoctoral en Stanford University y posee un PhD y MS en Informática Biomédica de la University of Pittsburgh. Exbecario Fulbright–García Robles y certificado en Informática de la Salud por AMIA, actualmente es profesor adjunto en la UNAM."
+      }
     }
   },
   "services": {
     "title": "Nuestros Servicios",
-    "metaDescription": "Explora los servicios de TI empresarial de Pi-North: ingeniería digital, integración de sistemas, modernización en la nube y automatización inteligente.",
+    "metaDescription": "Explora los servicios de TI empresarial de πNORTH: ingeniería digital, integración de sistemas, modernización en la nube y automatización inteligente.",
     "description": "Servicios de TI Empresarial y Consultoría",
     "engineering": {
       "title": "Ingeniería Digital y Desarrollo de Software",
@@ -162,7 +204,7 @@
     "problemsTitle": "Desafíos del Sector",
     "outcomesTitle": "Resultados que Necesitas",
     "ctaTitle": "¿Listo para Transformar tus Operaciones?",
-    "ctaDescription": "Platiquemos sobre cómo Pi-North puede ayudarte a modernizar tus sistemas.",
+    "ctaDescription": "Platiquemos sobre cómo πNORTH puede ayudarte a modernizar tus sistemas.",
     "healthcare": {
       "title": "Salud y Tecnología Médica",
       "shortDescription": "Modernización segura de TI en salud, integración de sistemas y transformación digital.",
@@ -213,12 +255,12 @@
     }
   },
   "whyPinorth": {
-    "title": "Por Qué Elegir Pi-North",
+    "title": "Por Qué Elegir πNORTH",
     "subtitle": "Una alternativa enfocada en resultados frente a la consultoría tradicional y los servicios de TI genéricos.",
-    "closing": "Pi-North combina el rigor de la consultoría empresarial con la fortaleza de ejecución de la ingeniería —sin la sobrecarga ni la fragmentación."
+    "closing": "πNORTH combina el rigor de la consultoría empresarial con la fortaleza de ejecución de la ingeniería —sin la sobrecarga ni la fragmentación."
   },
   "contact": {
-    "title": "Conecta con Pi-North",
+    "title": "Conecta con πNORTH",
     "subtitle": "¿Listo para transformar tus operaciones? Platiquemos sobre cómo podemos ayudarte.",
     "info": {
       "title": "Información de Contacto",
@@ -308,7 +350,7 @@
     },
     "cta": {
       "title": "¿Listo para Transformar tus Operaciones?",
-      "description": "Platiquemos sobre cómo Pi-North puede ayudarte a modernizar tus sistemas críticos con ejecución segura, escalable y orientada a resultados.",
+      "description": "Platiquemos sobre cómo πNORTH puede ayudarte a modernizar tus sistemas críticos con ejecución segura, escalable y orientada a resultados.",
       "button": "Iniciar Conversación"
     }
   },
