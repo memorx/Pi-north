@@ -107,7 +107,7 @@
         "roles": [
           "Client Partner – Cuentas Estratégicas Canadá Este",
           "Client Partner – Cuentas Estratégicas Canadá Oeste",
-          "Director de Entrega de Programas / Sr Program Manager"
+          "Director de Entrega y Transformación Operacional"
         ]
       }
     },
@@ -116,6 +116,26 @@
         "name": "Dr. Arturo López Pineda",
         "role": "Director — Ciencias de la Salud y Datos",
         "shortBio": "El Dr. Arturo López Pineda lidera la práctica de Ciencias de la Salud y Datos de πNORTH, especializándose en inteligencia artificial, analítica avanzada y entornos de salud regulados. Aporta experiencia de clase mundial en soporte a decisiones clínicas, plataformas de datos seguras e implementación responsable de IA. También es Fundador y CEO de Amphora Health, empresa miembro de la Red de Ventures e Innovación de πNORTH, enfocada en entregar soluciones de datos e IA de alto impacto y cumplimiento para organizaciones de salud. El Dr. López Pineda completó su formación postdoctoral en Stanford University y posee un PhD y MS en Informática Biomédica de la University of Pittsburgh. Exbecario Fulbright–García Robles y certificado en Informática de la Salud por AMIA, actualmente es profesor adjunto en la UNAM."
+      },
+      "victor": {
+        "name": "Víctor Jaime Granados",
+        "role": "Director — Inteligencia de Negocios y Analítica",
+        "shortBio": "Víctor Jaime Granados lidera la práctica de Inteligencia de Negocios y Analítica de πNORTH, con más de 18 años de experiencia diseñando arquitecturas de datos empresariales y plataformas de analítica para organizaciones complejas. También es Director General de Linus Analítica, empresa miembro de la Red de Ventures e Innovación de πNORTH, donde apoya a organizaciones en la modernización de ecosistemas de datos y fortalecimiento de gobernanza. Víctor ha liderado iniciativas estratégicas de SAP BI y analítica para organizaciones como Cemex, Heineken, Grupo AlEn, Gonher y Tecnológico de Monterrey."
+      },
+      "guillermo": {
+        "name": "Guillermo Sánchez",
+        "role": "Director — Tecnología e Inteligencia Artificial",
+        "shortBio": "Guillermo Sánchez lidera la práctica de Tecnología e Inteligencia Artificial de πNORTH, especializándose en sistemas inteligentes, plataformas de automatización y soluciones empresariales de misión crítica. También es CTO en Izalith Consulting Corporation, empresa miembro de la Red de Ventures e Innovación de πNORTH, donde diseña agentes autónomos de IA y sistemas de automatización que entregan impacto medible bajo estrictos requisitos regulatorios y operacionales. Con profunda experiencia en servicios financieros, operaciones industriales e infraestructura crítica, Guillermo diseña soluciones de IA seguras y escalables."
+      },
+      "erandi": {
+        "name": "Erandi Nos",
+        "role": "Chief Growth Officer / Directora de Desarrollo de Negocios",
+        "shortBio": "Erandi Nos es una líder senior en desarrollo de negocios y licitaciones estratégicas con más de 15 años de experiencia apoyando proyectos de energía e infraestructura a gran escala en México y Canadá. En πNORTH, lidera la estrategia comercial y el desarrollo de propuestas complejas, alineando los objetivos del cliente con requisitos regulatorios, de gobernanza y crecimiento a largo plazo. Ha trabajado con organizaciones como TC Energy, InterGen y TransAlta. Con doble nacionalidad mexicana-canadiense, Erandi juega un rol clave en la estrategia transfronteriza de πNORTH."
+      },
+      "debnath": {
+        "name": "Debnath Nandi",
+        "role": "Director de Entrega y Transformación Operacional",
+        "shortBio": "Debnath Nandi es Director de Entrega y Transformación Operacional en πNORTH y miembro de la Red de Ventures e Innovación de πNORTH, con casi 20 años de experiencia liderando programas complejos de tecnología e industria en Oil & Gas, infraestructura energética y entornos de software de misión crítica. Ha entregado programas de automatización y transformación digital para organizaciones como CruxOCM, Enbridge, ACI Worldwide, Cognizant y Tech Mahindra, gestionando portafolios que superan los $12M en entornos regulados."
       }
     }
   },

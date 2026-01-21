@@ -107,7 +107,7 @@
         "roles": [
           "Client Partner – Strategic Accounts Canada East",
           "Client Partner – Strategic Accounts Canada West",
-          "Head of Program Delivery / Sr Program Manager"
+          "Head of Delivery & Operational Transformation"
         ]
       }
     },
@@ -116,6 +116,26 @@
         "name": "Dr. Arturo López Pineda",
         "role": "Director — Health & Data Sciences",
         "shortBio": "Dr. Arturo López Pineda leads πNORTH's Health & Data Sciences practice, specializing in artificial intelligence, advanced analytics, and regulated healthcare environments. He brings world-class expertise in clinical decision support, secure data platforms, and responsible AI implementation. He is also the Founder and CEO of Amphora Health, a company member of the πNORTH Venture & Innovation Network, focused on delivering compliant, high-impact data and AI solutions for healthcare organizations. Dr. López Pineda completed postdoctoral training at Stanford University and holds a PhD and MS in Biomedical Informatics from the University of Pittsburgh. A Fulbright–García Robles alumnus and AMIA-certified health informatician, he currently serves as an adjunct professor at UNAM."
+      },
+      "victor": {
+        "name": "Víctor Jaime Granados",
+        "role": "Director — Business Intelligence & Analytics",
+        "shortBio": "Víctor Jaime Granados leads πNORTH's Business Intelligence & Analytics practice, with more than 18 years of experience designing enterprise data architectures and analytics platforms for complex organizations. He is also the Managing Director of Linus Analítica, a company member of the πNORTH Venture & Innovation Network, where he supports organizations in modernizing data ecosystems, strengthening governance, and building trusted analytics foundations. Víctor has led strategic SAP BI and analytics initiatives for organizations including Cemex, Heineken, Grupo AlEn, Gonher, and Tecnológico de Monterrey."
+      },
+      "guillermo": {
+        "name": "Guillermo Sánchez",
+        "role": "Director — Technology & Artificial Intelligence",
+        "shortBio": "Guillermo Sánchez leads πNORTH's Technology & Artificial Intelligence practice, specializing in intelligent systems, automation platforms, and mission-critical enterprise solutions. He is also the CTO at Izalith Consulting Corporation, a company member of the πNORTH Venture & Innovation Network, where he designs autonomous AI agents and automation systems that deliver measurable business impact under strict regulatory and operational requirements. With deep expertise across financial services, industrial operations, and critical infrastructure, Guillermo architects secure, scalable AI solutions that combine advanced technology with human supervision and operational resilience."
+      },
+      "erandi": {
+        "name": "Erandi Nos",
+        "role": "Chief Growth Officer / Director, Business Development & Strategic Bids",
+        "shortBio": "Erandi Nos is a senior business development and strategic bids leader with over 15 years of experience supporting large-scale energy and infrastructure projects across Mexico and Canada. At πNORTH, she leads commercial strategy and complex proposal development, aligning client objectives with regulatory, governance, and long-term growth requirements. She has worked with organizations including TC Energy, InterGen, and TransAlta. Holding dual Mexican–Canadian nationality, Erandi plays a key role in πNORTH's cross-border growth strategy."
+      },
+      "debnath": {
+        "name": "Debnath Nandi",
+        "role": "Head of Delivery & Operational Transformation",
+        "shortBio": "Debnath Nandi is Head of Delivery & Operational Transformation at πNORTH and a member of the πNORTH Venture & Innovation Network, with nearly 20 years of experience leading complex technology and industrial programs in Oil & Gas, energy infrastructure, and mission-critical software environments. He has delivered multi-year automation and digital transformation programs for organizations such as CruxOCM, Enbridge, ACI Worldwide, Cognizant and Tech Mahindra, managing portfolios exceeding $12M in highly regulated operational settings."
       }
     }
   },

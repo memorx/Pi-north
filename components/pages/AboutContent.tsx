@@ -202,11 +202,14 @@ export default function AboutContent() {
                   <p className="text-sm text-muted-foreground">Coming Soon</p>
                 </div>
                 <div className="p-6 card-corporate text-center">
-                  <div className="w-20 h-20 rounded-full bg-gold/10 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="w-10 h-10 text-gold/40" />
+                  <div className="w-20 h-20 rounded-full bg-gold/20 mx-auto mb-4 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-gold/60" />
                   </div>
-                  <p className="text-silver font-medium">CGO</p>
-                  <p className="text-sm text-muted-foreground">Coming Soon</p>
+                  <p className="text-foreground font-semibold">{t("team.erandi.name")}</p>
+                  <p className="text-gold text-sm mb-3">{t("team.erandi.role")}</p>
+                  <p className="text-xs text-muted-foreground line-clamp-4">
+                    {t("team.erandi.shortBio")}
+                  </p>
                 </div>
                 <div className="p-6 card-corporate text-center">
                   <div className="w-20 h-20 rounded-full bg-gold/10 mx-auto mb-4 flex items-center justify-center">
@@ -240,19 +243,27 @@ export default function AboutContent() {
                     {t("team.arturo.shortBio")}
                   </p>
                 </div>
+                {/* Victor's Card */}
                 <div className="p-6 card-corporate text-center">
-                  <div className="w-20 h-20 rounded-full bg-gold/10 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="w-10 h-10 text-gold/40" />
+                  <div className="w-20 h-20 rounded-full bg-gold/20 mx-auto mb-4 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-gold/60" />
                   </div>
-                  <p className="text-silver font-medium">Director, BI & Analytics</p>
-                  <p className="text-sm text-muted-foreground">Coming Soon</p>
+                  <p className="text-foreground font-semibold">{t("team.victor.name")}</p>
+                  <p className="text-gold text-sm mb-3">{t("team.victor.role")}</p>
+                  <p className="text-xs text-muted-foreground line-clamp-4">
+                    {t("team.victor.shortBio")}
+                  </p>
                 </div>
+                {/* Guillermo's Card */}
                 <div className="p-6 card-corporate text-center">
-                  <div className="w-20 h-20 rounded-full bg-gold/10 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="w-10 h-10 text-gold/40" />
+                  <div className="w-20 h-20 rounded-full bg-gold/20 mx-auto mb-4 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-gold/60" />
                   </div>
-                  <p className="text-silver font-medium">Director, Technology & AI</p>
-                  <p className="text-sm text-muted-foreground">Coming Soon</p>
+                  <p className="text-foreground font-semibold">{t("team.guillermo.name")}</p>
+                  <p className="text-gold text-sm mb-3">{t("team.guillermo.role")}</p>
+                  <p className="text-xs text-muted-foreground line-clamp-4">
+                    {t("team.guillermo.shortBio")}
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -282,12 +293,16 @@ export default function AboutContent() {
                   <p className="text-silver font-medium text-sm">Client Partner – Canada West</p>
                   <p className="text-sm text-muted-foreground">Coming Soon</p>
                 </div>
+                {/* Debnath's Card */}
                 <div className="p-6 card-corporate text-center">
-                  <div className="w-20 h-20 rounded-full bg-gold/10 mx-auto mb-4 flex items-center justify-center">
-                    <Users className="w-10 h-10 text-gold/40" />
+                  <div className="w-20 h-20 rounded-full bg-gold/20 mx-auto mb-4 flex items-center justify-center">
+                    <Users className="w-10 h-10 text-gold/60" />
                   </div>
-                  <p className="text-silver font-medium text-sm">Head of Program Delivery</p>
-                  <p className="text-sm text-muted-foreground">Coming Soon</p>
+                  <p className="text-foreground font-semibold">{t("team.debnath.name")}</p>
+                  <p className="text-gold text-sm mb-3">{t("team.debnath.role")}</p>
+                  <p className="text-xs text-muted-foreground line-clamp-4">
+                    {t("team.debnath.shortBio")}
+                  </p>
                 </div>
               </div>
             </motion.div>
